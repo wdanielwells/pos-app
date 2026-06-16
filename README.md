@@ -1,816 +1,331 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="POS">
-<meta name="theme-color" content="#0F1A0F">
-<title>Personal Operating System</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
-*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
-:root{
-  --bg:#0F1A0F;--bg2:#162016;--bg3:#1E2A1E;--bd:#2A3A2A;
-  --green:#4ADE80;--green2:#22863A;--greenlt:rgba(74,222,128,.12);
-  --tx:#E8F0E8;--tx2:#8FA88F;--tx3:#4A5E4A;
-  --warn:#FBBF24;--red:#F87171;--gold:#F59E0B;--goldlt:rgba(245,158,11,.12);
-  --blue:#60A5FA;
-  --ff:'DM Sans',sans-serif;--fm:'DM Mono',monospace;--fd:'DM Serif Display',serif;
+PK    ÅšÐ\n‘@ ^q  ]· 
+  index.htmlUT	 b¢1jb¢1jux
+ ç  è  Ä<Ûrã6–ïý¹2nODY¤.–%Û÷mÒ5ÛéÞíÞÊæ"!‰1IpÈ²£JÕ~Ä~á~Éž/ DÙN¶Rîˆ$€spîWy÷ùí·_¾¼'+7¯®ð$ ÑòºÃ¢Þ`Ôƒÿ…LRâ®h"˜¼îüç·Ö¤“ÝŽhÈ®;÷>ÛÄ<‘âòH²†m|O®®=vï»ÌR]âG¾ôi`	—ìÚîõ»$›i-|yíò{–T–¦q0+äsþ·as
+nX.é<`pL´™($•kaÍi?K+ÌêÞY2¡‘Ö.Üj³žôei‘/Ÿ¿V¦É
+™åò€'…q'ý[û¶‹cÕ7_X"xDò9f	•~´$_…dáÕ¹ðê*ð£;’° CEòµ»²|X³CV	[\w<*éÔé’‹ûå÷aÐýnð~ø‰ëÓ•”ñôü|³Ùô6ƒO–çN¿ßÇÁ§ŠoøÃõiŸô‰ÝW§ß
+ÞÃ
+	s%Ñ=Å»dÅüåJ¦	ÌqœS²ðƒàúô;g ÷vz®'Kö 	ÁÐÇëÓñF¬
+ý nüƒ>í
+–ø‹ô™ðc×§ƒIv‰¬º>õ%
+|· hxûîý–EÜO®OCßó†˜3 þ9>Õ¨àFáR]-yóê ?Dé#ë$x­¨#€<Sô–œ/Fc_ô\ž»B8Oq~÷éû¯ˆí÷ï| ôqŠ˜ýÐŸÙ- 9šn€J?úýÙþFð7î÷
+c>ñˆë1éó¿zzÁk±¡ñéÙìÕß¶sþ€ä ˜Îyâ±Ä‚;³Í¢iSÏÃgýÊä/-Ickì	EZð¦Jªcš€ìÍ~5M8—ÛW–5_NSAœá…3=±mûƒm««\]:#û¯¼é‰3á¦Á,Myx‚“g2àË@N“åœ¾¾vÇéÚÎ¤Û³í3œ$¦'ï‡ïß¿Îð¦]Ü^Þ^Üª+€5¸ÝÂ"0rC“hzòáÍ›ŽM ÿ0¹°/¯%ðrtù¾ÿFAô4Dg8êÚ£I×¶¢£ Îƒ5›žŒû·£jr—ã®=uQ†ª‘‹ÅôôÝ'‚,;í
+ø×RÂ“¡z‚Œ:í†ð/PÑeøÀÓSpIÅàTËðìÕï¯Ð”vçÜ{ÜjU™‚¦|7›ƒ…Y&|yÓ{š¼F*ŸÍ4‡ôµ|8›”#½»X¤wQ-¦ö8~˜¡¡\|3]´³˜zFa›ŠÏt°‡þcy>*¯Ï£)ÀY‡Ñl‡ÏýªpáÁ,"y¶q«¦ŠU $Ëˆv.ŒRòpjÇDðÀ÷H:Â;ËEÓvà¡Âº„èò2²|0qbŠæ–%³_×Bú‹G+5“SElkÎä†Á³üÈcS§˜ö¾ä[­¼­zö(aa‰Æ€;L SÉÜ•›–‹KôÆNu^\ã$ESQkjç<±§t-y®ù}á&<$Êt#1ØêœkØŽj“”jÄ_ÙØòáó€»wˆGDïsÌÉY<6ò«ÄŒ¿,º-è‚Y`C(ð"ôQ·?(ŠJ:Ï(ÑB[p?½½¤ñ$('Ì%’þ.à^aŸŠxz‡úw™c£b•9=œ §&¬…²‡àzý!ÜTFYÑOÂé:/íRPÖà·“iÌ}…¬¦?³Uþ„ÐLÕLý2áwl
+óÐ¿E$gèÐ4Òú©Ž—@z'Ù
+AÏTíµxóW œÞÕ°QBjâ¾²[¨Ê…RíY2¾´è‰õüÉŠR£ç¤EÁ¬C™d;{™T…ÖÆ+2ŠsŸ«¢#[ãìÒÄÛîÓ7ãò)	õüµPr§ø;X9‚ý,Çlp°I· 5€©Å™Ë(cå¾òYÃ²êå‚VT¿Ê‘Z y{¡x«nl´Ê`ÌTäžr˜e•«É×¬¡‘ŸR°9÷lËñ™|œö&£ôIo¹âB6²&Â{h›.Ç×µ±¸`1æª(dÃzKåVz~©þ’ìî#»QØŽ
+:zÅšt›šÃfì§
+î®Å6Å£´wµCÔSô#j§	S ÔŠ¸¶•Å$½2K° ‡	£@T7AÀ<Øå§æìûÊˆ
+HæB{
+ˆˆY²Õ‰º¦Ìûd¤CZ?n#Æ#ÅÚKx]è lÞ+U9:©‹çGZ)¦Ñ:<è6†ðªÄÆl±œU‡{UbjÆ~Ÿ­O‰AŽ£%¡‡b¹­ƒ <d®w„â\‡wSÐ¡²&XRƒ<*[&¾7Ã, 7Ü‘*ù‡ 8·HHú§¢š‹:ï†©#„ïÙN¥_5ô“ò–RQ@p
+œ.3çrd²Î8½¢†
+@3ÿB ÓìHJÎ#ßÉàe²‰Š)º®‚ñ-³çr‡6éý+(š‹€-dá™ÜéY‰UòÌuN’Î%I­ÑrÙHÊŽšÔá¤sÚõLi÷Tl
+YPúó#eÕ`ÓZ@ÔÇ’äöçÍÊu™­áq™:Ø‹]p®Ò‰R#“óšÐÈ©Êeâu qñ£Ö6Ñ'ýpÇ	
+™ êñ¶ÿ]E)BìßG…«Þàw…S+ó86†¾uÜh5»°,QtíCµlÉ´GuýÝ¬`‡
+.›Æ	$)	U*í‡ÎÖœm©*ÛT×íT ë+ûlÓV5Mñ2€£sV2N§jÅP;+ùHÕºì7%	ÔÀó´)ÕåÑ	ÚèŠ—Q&Ö½?,“º­8«í
+	~,Ê:”åØe\T°ƒÙ;rzš±foC”æ·Ù ðô)Êƒ~M•†ù3w!îauã¬Še?ÖM¤·•úøJÍi ÖÏéæ{A)„;Q»o÷g†h7a^–Lœ,\:¢£l‰°”2ž©ÃúÓX
+Ý­á±ñ„fk¬üÒ}6 65­Q©1j«.ø<á›ºÔÍfš
+Âçµ®B1Æoü¬6 lV×ƒ›Gb·™Þ#Ï¤!®=A
+7`¡H¾lÎwQ)—){y|Ê§ÌI1?+¥•dm†6a•Ù-3j_‡²ÁtÔäÐe+À¨º7ÁaëÐB2ý?Ñ&<”7F©¥ø$Ç†¢{7*'F
+ÖÆjëU‘~©ïL¸Ju^ªX?‰¨N¨Æt%ßKKZJÈa÷YO
+—»&âíC„*R£-E<eÃ‰»¢s»ö—îkÝ !±´Ü®V‚¬V4uòð¨–*™Á¡|Ùi2ábº¼K†'“ï*ÃaÍì«[‡‚ÊlíÞZ€’›bëjV¤¥]°`¡p·Xä +„HöÃ”¢*¨Ô?>ð¬¹œ*Fþ'²§±ÆàY!&c m»Z1d-ÑD”+{ÆºìÑ­”„IÅÒäÄ/"‰Þ3mG¹PñŒå¨f>ŠÎ
+åy×ï4†Ù»­²,j¤ ‚¤^{Xhófby§¼LÜZn0-4¥TÕ0Ûùd×”Úé]CGÊ?\G*d4ðèã‹tHªMosÒ—B\yÉ¶ÜV
+áÑY]½Ù—Ã£>û*>:\Ø©›»×•¨×\ÏÞ­£RùüˆÞbAÎû5’âáÝ8ÒŠÊ¢=³h[X
+Ï	Åµ¶pV¯Ä™e[” À{zléÄi@…´Ü•xÛò¤¬ÌJ?DÙ²ùœ
+I½W€ðñ÷²±szLR¿Ü¥0ç2†æGONf•J‚†ég5ŸW¨k¶N9b%ƒÆ0³ÐSÀùæ€2ŒÁD´åHÞEI«Ðeåvž€Õ‘êÅMv»žÂé	nyÂÉ`>qãr0¬YaÆ¢2Ã»¼¸è—gèÔf@ …uî'hûò¬é„Ãá’ê¸îQ2.³X¶ÂäWsë¡ä–‹NyµIÁÔ*´kâ_È
+#752ÚÕ:vKÁÜ—í»ëˆKôõ"b17hcï=z!ÌôÏPTX6–Kwu×äç©‹ž¬ZÙ(‡¡©·–.•B­:;ná¨Æë¨×§¥Ll´9GôÞšún©µ–~ÀUot|yZk[=—­–¯ÌÅ*D
+Oõ˜ËRænr:ÍwyAl÷ºŸîv^í¦×Nc¤DO"ù¤º]Å'•ê÷xÜ²+è­£[7²
+f˜k“äPá¹–¶¿l}ò©,×:–éu60#!
+
+“Ôü3,îWªùN½1ö§•x {Œæþ4èE¶Ýj9àÙ#{tTù–JúÏaæ*0ž`®ðJÝÉªÖõƒ¾c^ÈÄñÍ&>Ï=bâÔ˜¡'›*ßæOg¹¯Q…jšfÔJ˜v–OL×¦™ëw•ãËö OçU‰ØŸe¦Md½r¤lOõ1äcÞõ{u`ÏJùi~Ïì{^ô¤ƒ‚ÞêÀGý4ŽÒH“S×‹æYR1ëmhµ>É¥lÝ(-MÜÅ:Îpë8õúä(¦þÔrKõôYµþ¢‘ÔB°ç¨‹Áv?”²û½2R°“Y¸“P’-U‹¡“E ±'|rT%=¿¤¼­û£´Èd»3†ÃC“'Õk6t„ŽÉÆåÞÅÔ·(´‡rÌö/ô°^l¶2ÍŽæíÎîª}¦ãã5£Å[+ƒr#E³ðEÊ™ùfŽÕ Ãùª„	‰¾ê™òRìu]dÄç™h£AtŸ¬2ÎnÇ22œöí`´+N”2Þ¡±Žó¤¸ðPO;§ LMGÑJGG;U•_¶Ðø
+ƒ€ãÙ*Ï+i^	ÕqÓâñð®+¶_öjkZû²ÌÅÉœzK“ž^3My°WIÆ•zSd½Ht\Š[¼ñžXZîèdòò¯i4;“	Ä(Û'¶
+µ ã1™´*F«‘"¹kÑö6•MYb…˜ÕK´ÃOfU!ˆËj.‰ð¥u”‚—Î<IÃM>¬ž² –Mˆ;/¡ï†Ó)f…7Ý©¨8á
+L<Ú µë íl×÷t[8>²Ê:æðbÿÿžŒï}ÇÍ1
+{5dG2í´lÿ‚©²-
+Ið¨]œÊ?Î<÷£~Ó,9
+,³q{NÎß|[TŸ$hA¾‰ÜõãJù²àèŸr2Û2¾ÿ7ây/ƒY8c||EÜiÌv·'Çe<vä;’)˜åTóÏo‡XÅÜÆ<­·,ü æÍÔ
+Áå÷ŽÕ«öý.þ æè,{Ä» ‚çLšÓ‡ÞÊ÷*ïN«§=ò-ƒ ¨w¯õ{ž»O,¨WÀÔÙª&Z:ï—•Núåü¥s¿ªÍÒ-ív*4h,Ù‡ÕãåM/5ÕÞ0ªòZwƒ¥!M¨´‚sÉW9Ö‰F‡WÉÏLÇ^.ã6/…ÖNy^5ùBjO ¥WÞ/OD»!»‘XqyÁvBêÇ³[¾)jÎÑ¶1KaSokO›Ãißç ‡½ß0í¾±Ïúì.ÒÍZì®EnqrØfƒ'.
+Ø<Nî7Kµ8ÈUÙÅ¦;V9õÇ!Î½+ß¡¾µôº_â@þ”ô‚¸ë¹ïB.ò›Ï’×½Á°
+&aÜíáÇYe :½ª.®‡IN…¬Ò_-P&‡-¤Šw“õ§–`ÕÿzmÁ·ëeœv©y©<S/y©'™HúYúT°&^Nôîÿeÿ~c.R*º˜eC?BF¢·,³Õƒf“5  WzÇ¬öÎyGÏŒ
+#¤BÓb%iÊó·¼‹Í»KÇ´üPK­;\‹‡%ÐçW÷Éàüœç—-©ODo
+“jƒšC`Ó¡žZÔ·ÿ›"¦¯ñ±
+C£<Ýƒ»bî…BÐê[A• úvZLi“ONâòñ‘9EÝ­Jô!có™•4ú*”¶íüœZ1•2a·ì{†ïN´!†ÃØÔ•LWØ½4z¨Óô”Ãl‡{qæo
+<£ªžo«©²¾K[¤Ãï)Y±o~·óOù^E¥'S?Þø‚N&Ðùõe®ÎÓÏÇ]§ŸHÄþÚÍ«WW±,òñ§o·ÿ|O>|þOÄ²à¡çß7 B\wÊv³C|¯vÏ8hgßGaŠq"˜ÉÎÍÏ,pyÈzä-‡˜’IFù:!z‘œ¬#¬”ê»q
+Èè—Sw…p„‚Ó#ßV¾ 8M: ò»OB?ZK¼yfò(ÕX(q#bEcx®–¿ý¸[t‘ðxô‘ {zéŒ›ÐfÉLš’AîÜ|Õ—Ä&ÿûßÿCrŠ}Œ<£’Ê×³U‚yÐ¹ùà'B’ŸhÈÈß®ÎÕó›+e~vÀâ”[V†:¤ðºÚuçÜÙB-¢žÜ.ÙÁµé––1»îDëpÎ’
+ Ö[öÈ`lð£²I ahÓeZx¼Äñ#óêoõ«ÈÏúÌøë`.ÎZPk“B;´)gØ7Ãý  ö‰µ¤MöÈò³ë®cõŠ?9'_Á#yëà0ï~ås”·<‰9Ï$¤ð7épú÷ ’/À&w‰ÇÄÁÉf¦òµP
+*”Á;ˆˆ¶‹&\>Ñ$ñ™×%¹ó=ÐØ%¨åX)îe—|$'! !æ
+"W•ßž"b/«œŽRÎ
+äŠüè
+É“ÇfíüÄ<
+üzª§[AxB<Ÿ.#.˜Èèñê*û°&¡^£C¾'u¾@<íÃRhËnm—Œz@”%x¥õ…X3Ñ%øuM28÷Hœ0¸™°^¯×¹¹:ÏØ«@½¤¼Xãç\CL4ÚnEdûpLûøÊÀr¿ûjõí.ùÚ#`¦šx¾ß²±%8á~ ÖÑ Žò2‰!¨µÙÆ—Õ£PìüÐ—4ç‡ýºá*ì¡I>³‘&ÜßP`®Hî"Æº’ðRäÔwiq‰¢Šý¯æB*¨u„¿ò9@“ @··;ìô—¥è	ŽöâæŠÇJVïi°F3þ÷'€‹ßÞ…íÏÑ èÕ‘êSÄ¿€¡Œ$Y€¬x
+šïÞ)š"µ[ä\#ôâº6Px(…¦T ÍnÒ´/‰¡Ñ#¹ì[è–—jüë9#"f®¿ðÝ³VªæíUµãøá”{Žñ ,ã®Ðwá'pÆ;e¥¸G cF¶.ñCUx)ègá}ã/Áä›
+IÝ ˜$W {LÀ
+A
+æ©¸eÎ@!X«ÍæKí×I‰2J˜ŽÚ d„-søil°n,!Z0ƒ¤Ã3-ÚlìgÜ†ÇaCb
+	€ût :
+<¹ìcœ%þÞjGé
+MûyÇ„›€áP.™…RÃ;|/VpCaÀÙ9S‘gm /+ãC%ã?­e¢üC³€¿×ôßø‘Ç7`T¨ K’C ßÂ<àD®¬ôNZ“8ÌœxmO¦c¢r[°•Š·)Ä³Î
+LA
+á,Ä¾qhn"ª0#”0O'M@‚9%¨Mc¡@QÀ”G!øöžÀ„…«KÀ±¤“;7mF5‚øüéöÂò5=›
+¡YÓ£ÆÅ05öÁ\+È‚É”LôW”ÈXXog™ëõÇÍ@¾ëBÞƒ&$Ñ‰ä<ð„ÊÃÞPÏ1ÙŒß¿QNã6ð”ï&?Ó Ì³T7ÿ™ð¥þX¾!¡÷4‘Æ(*W3®*+«ïÊæ¡#{,Øó‚²ÊDK\G-c©G¢vWµédq©Ž¾Õƒ9èdì¸
+Yþ3‚h.\à§×qíÎ
+ÉïŸc–š?Ùá÷DxŸ€É¸,Òì{°à ewÏ³{Ï†ó›¤)XA£1
+†ŒdÏÎËOž
+óVàª K|‚ô!h !ƒÐX¬0!z ä0égC|K]ë=~…äÅÜž¾yžßz6”7oþ]ÁX&~0eA$n ïŸ“ÿ«îÝ{ÛÈ²<ÁÿóSDªQ²ø0©‡TR‚,Ë¶&%Ë#ÉéJØFwˆ‘‘"Ìˆ (•m`Åöb§{»f*{«z
+½ÈîÝ­)Lc€Æ³Øùcf¿I~Í°çwÎ½7|ÈvæŒ»+-FÄ}œû:÷¼ÏcyûÁ½œx†P=ZŠøb=îœ.ºÛ5¿Ððø}ÒíÌKfWØ&ËývâA×[Î¥ã
+@3~Ð)TìØ‡ŸÁÇSìŒÕhÃ mýƒ±Ó_¬è	¿¸mÑã Ï3¯—UêI§È#Ò!úî"YÉß-HÜÁfiØ0Hþ€­’{ùá§MÎ®ÿþðEWÇÅ˜
+š›Øfº¹ø
+m½äÃ‡#ªnæÈz&}j6é×(ðágl¨•KžC¦ˆJ$ôX}÷Ð]Ó-ïÓaÝ^|JÁBqåt'ƒ(Œ¥LFdä„b¸?¡(w\|±>$ÞüÌ¦éàÄ¼/g7è-ÅüÆE‹@|J„HßÎ	W‰ªñ¨¯ó Œpo0!êL=PhÏ¸üqW3	B× ÓÿT|Š#¶Ù]†$Q‹‰H²>³Qâ4.!J RªC¨nþÇmð’=ò¢íÙ9øW	Z8ú·GŒÿ€xÊeH{]!OÞ›æ€Ó×jWLrN]÷‚È¿Â÷3iÑ¸™fmµ°™Ôû™Í@F7 jÓíÒ0i?Vcv‹
+‡éÍ/0³aïeÚ\Þ~Ô†yeë«Ù—$–_Y>Nmà‹Ì*yç†L¥¼xsö®‡…bÖÁäÌzAç2ôº®©)!ÿªõŒö"‘öjÏðÑyB©…VfÂø±/nê¬Æm~øÕ}æTo $‡ßNˆ”pãé/t]Äï?w'Ã3iö|BC'6‰ºz¿,é·åî‰×Ÿ=TCL¼î¦^|pû¢ˆˆÛã%ÄÏ÷_•PDOÿt£ˆ“éòa|A×ó½U‚¶;$$Z…¤ØóŒ°n™‡ž.ûÁ±L“±EÛ‡šFO5yZâFæóò±DŸýXgÂéâ
+g’í
+©žUœµSðùƒ'‘Å@&·uFGûõ8óêc.š1œÂÅ{_lâw¯Õ¹ðGƒk`‘ô›îáÂè
+ç9§Ö¿Lž–ÚxŠøƒè2¾¡ `ò†NÏ€&º}m/qÉsA´˜¿å×Ò=AŠ•z1óÞ\ÏV\_²âF¶âÆ’‰PÈVÍ½šYÙ‹`~A4¨L(‘ÒÂWù—…7ûÇ¥êî0Uwà»,bâ›m×§*höÞØ!RÅé¹"*çLå÷<õjä×~2"Z‚(Ì>¤Ø+[ÏÍÇÙËW»£+Ä?g¾S»«
+Ç?g¾[»§
+Ç?g¾WÑeõ¯%	²g{î±ÜåÌ”4áPöý.óBl¦Aø f1á«š( ž‘rHw+¬¶N§™#r‡tÉ¬líáÏ’cQ[±ø}«4îƒõÝ?Ë:ÐÒÔ¥D
+­y¶KŒe´Ã»‘2ˆq‘-€`djCZªA×ºùÓå3>Äk³ôjGcâÙ:•Ï“£{3îv@gêkÖ·3-<Å½
+d:rÝîl-ÍÙ$"jZCtVèvèÍ~Ñ^	'gC/Úç#^*¯ˆ¸™x”´!ÖGÙIQ>æóáµµ3[?üåo¿¸-)ì¡ZÊ[Õš	«Ëã„Z+Lÿåß[«Õ
+k¦a•õ_þok‡naNÿ‚ïwƒKš)˜ôÁîëpgÿ©µóìYbô…U#¢hÅx”‹4ÍzTÆ]G'ÒœùI§)\Ñ•ñ‹Ä
+«/‘²‘ßŠèÉÑá^Î
+Y-¤ŒEqMˆŠÏ¾è7…S	\W8¡:úØ;n¿™n†íÊî|m}A[nÄu sBA“Ž)½Û²ŽY÷¦iHÈ#3°•}¸11OäöùiQ	…çšU«Î…9%Ù¢Ã°g¶ŠÇ­¿'‡BÌ¶E3Šyäz~ŽõÐ9áOæŠCÆžôª†ñXúÓ•-:’yØBQÝ*³­YÝÍkÙ¹ìÍmûn
+3´sÙ{¿æ;tfç¶Ï‡ÚÍ›î ³3™ÚWnj+¹}Ë_Åf þ–Æ8ß¦QÎÈ¹,Ù¼bÞÈ.§¡ÿvy¦óðã÷ßý•õ%»¼Îû£ü€¾
+•”Ý“$ÑtS±™ãZm#¶p6Pö‹ÀcŸÉ|cãñaPx+çÅ•õe ™ÎãÃb ¾üÐ-½-7ôßþ k'¼]@^8ô­XyŽAÆò(ú}Ò€‡®®”÷ñ ˜µÈËø¿· EfÙÏìuæÕJ?vG.›è1F ÝK[eœTÿy‡:õƒ
+º³—ìoþêÿûO¿‘›=ÖéE¤‡ú`â
+º±)®êêcÓÄ}Âµ  #ô·«L
+òH¥ (Ùž²ïº~´’5þÂ)ÙçØ²|©*è²“#™,¤/JdŽgP*<K"é4ï‡Àí¸Þ¥;Ï\{gö
+"Ù?2ù±ûdo÷Ë‘ E7¾¾îÒ”+A†ô½Ý2Á!–GtÝ±~*©SæBÔ¹—h‡üáwØ¢‡BK¤í‡S+v.Õv ‚Ð7±|Ù˜
+Ùcs^¢Ü'4J€A«5†B{³ž˜¦k’FYxií.ìIá4bÇ:†\*0¦9Å,¨<z~f8s•¡ß…ÕíxC˜žÒŠŽÛ+z³P;µv¯¾LÀ5©–ß™@ÞVï¹Ñž˜‡>¸ÞïvÉ±ËuÆ»Bóµ	1‡ufž¶“Ÿ›&ÙnÙ4ömÌ¢Å£«ÓX:‡îF«ä :¹x(t“õ#\Í
+HGq)][‚KªbF„Îwà\Ñs¥S8é\Ð£7ª['Ð)DÄ”æßx%ù /äÒëÏÓrKI¤Î ®äßýGë„Å%ÿ’	ôbÅ
+^jÉRË×°Úl@Å-C
+yvG¡PZH÷ªïLhÆº@fM”&$wB5”­ãÔ'–Ê(WÏ	ÑõiÕòëg¢5o¬n·ñX¼Ô2sÙZ?o²Ô™¥~)
+€G¼#©UâMp·¾‘c…
+ï¼•>ŸÓ 	¸sy@Yô™3hYŒv=1U=w]Âx[œLÆÛ Òôcwàì4Y:¶“p8AˆƒåÍ<Zh.Æôÿhí%Õ›³µ\þ~ƒ½el¥.¨¸/Ð~“vÔ†‹·¼»ô§R”çl"8iÐt¹ù+¤J/±D†ˆ—*ê þ¤×‡P
+CpÉšu„
+·cl{áçöG\£¿ÿÓ?PÄÜÏ\¢![ä-½@DCBæwÇ
+;ª]å³ó§b.Fœ÷¤×(ž‚×ªïŒÇ×UëÿšÎ}•'GäU¡c ªÝ
+Ø\aþª	´Ë­—Íä)[›hÂàZC²m±Qµ2—e$6°Ko½QXÕ‚uº;ôÅ„f"êãháòINÖÚÇXµ¿þWÚ†|6ÖŽDy#´-màíŽ3Æke¼‡×Å´ï†8ˆC¾’±—Ó‹¼_+P—[6U:½pzq:t»°G¢å!–†vKé¯7‚t^;ì$Pe:‚—«O }Ü“%¼Ø
+á©f¯“bºn°P@$ yPSf[Ð^äÃM#^¤`ÂÁÄ¼¨jž¢3ð^¡ËÂ—ø˜.Z ÆåVH/X"}OuýmFŠ´—´0°ìø8e@~ÏŽiåöÏ­ðÂƒÑýë»6ýŸ­‡|?0
+3—¦«‹Ü`q`ÏË˜/qE©Zcx«àL\Ê´T.¡xµÜ«ºÐ¨ÇV­_»/‡
+/á¢U2À]nz¹5Âìk«0SvÙ¬ð‚ÀíÁ{Œ¨ÅmëYàŸy„Ü:â<’¥cs8ðð¡ú¸‹öÛ?ÏînöYr˜“^þ$Îèg©_´&}m"±4n×íš îˆ=¢É,–“¦D],ˆW!¤"xWbc	‰AK7!LBtHnCÂßbñ z¶U _œSr%KÇ¹óÖ\†(Nm ÿ×·ƒl…¼b¥òÂ®V¾®Ö~¾®Ö¾®6>jW¹íÂ[KóôÉ
+:Fþ¯3rþ÷:Üü÷À(‘ëÍÁÇc)pƒ).cQU5sGÎ9áºÂ2g<†k9´;ÒÂõÌz<‚…#ÐrjX´h)]%DgŽœÑ3¸JXB%ã©[\
+ªè>„ˆÉ@ÿÓÊÜXuºì]IÄÚïc‚tãcàæ¿ùgkW9(Î^?íÂxƒ”+P·œáïà©6
+Ýä{¤Øtÿ€-Z¹¢¬*ôÏB·sí©pFÙx³æeËÿã÷ÿö7VìŒ|ês¤’˜;£‘ãDÓ+J8úw7¢FK6½…Æà‡¿ÿÎ:Tî²p’ÉJ½3mü‚¦F¾´ô{
+ÏÃlké³?çÇÓ§:â5<g
+úŽOi¿OzN@\á„¶:N†âÂèüôz.,Ä4·S>"¿¼è#óò»ÿ®1v&ô«8¸lÊ@Óå†ËMŒ/õóó²ØVÄRÎ¾±á†œð©õÕ·)ÈÊ)‘—êY3¸.¥OêàžØxd)$¡$iDøúAñÉF]]¿Wm6×ø¿zscf@ â$;ù€@ù AÙ‰1~²¡¿f©›YÛ,c,²uÙÝÇùØ`ºÂ(\«µXåX`ÉòSê}vö­ã½“ç §s?ŽGL‘Òü°–ì™(©fé~¨J­Pû“ÓÚÅÅs¶ï¥ÂÓzBÌO¯¨îE;W™—@bð®3×Øêõ}üÓÚWhíYÂ[1eúá/ÿ5{ÌTì²^WbOÍRÜCÚï&.D5ÞŸwãìíì>±vŸìÌß9 8ž8×ì¦iÔ¤²šg_!=yzé‘íÚ‚Šõ‰{ý¹ÄÆ`ÌóìèDá9 R~“LH­e3_˜Êƒ r:Â0‘sæ±:cì}c‚è8•bÓ‡¡[Ãµ„H"¢Èå?ì‘Q½3re òŒø›ºbô•UQpôf—A6²ÞwÄœ4î4ÌMùa†
+,®Œ°½•A‰ç¤ï²7t
+´Èz~uð”6!õ1{»„æ¢á3D•Ml×
+÷rÛöŠw^â ˜uzÓn·mÖ´Ú·n}.oÃ¾w}é^—ßÈó8à¿Ýs‡0M©¼‰´Ó»
+ý|—¹MÔyÑÐ¢dŠÑ©ZxÙ³.=wúÀ¿j¯4¬†µºNÿ£8^ÖU“®{b%¯›©âj•A£¸Æßµ•Û[_ŒýÁu%_¨ °µj57,úÛlZÍ5zº‡U¾M™†Ål[ûííœÌ=8l`¢ðmlRŒo·ž>?=Þ?Ý?zJ§òðpçéCkwïééÞqvÙÑfÈ´É8kÖW¦bÒëB\PDh;A·ØJu/ü`µïpüq0PcFÜ
+|z¿8ªÑ¢¸sBX(±Ö¼OãßÜàš”}ß˜KdK áA/Êåáþ˜~(NbÃIØp<ÜŽH
+Q‰”¨X‡òý™ñ}æ  <*Pè9b“Õ\wÜ¡×aó¸Â±®P±t÷³=¨ž[Aø˜MœfUp˜5dïËb©¾ñ­b=¦/ylÉ5yŸŠÈg·`ð*Ë¬K±É]ñÏ§9X™ÑÆ}¤óæ‘‹ÜEJ(Ï¿à£S†	©ñÌ
+mÌoH9¶€5`Ã‰ØÕ%~³¬Kç{G>Ž—}2#a.È‡‚Kò$t—èœ+õûöW(ˆÆ$îøU	—P•èÅÀÍub_¶ÙNìÿ¢ÈY]«»…i?‘F”Ð‡íÅ>·jÝN¼×é·vý^H®¾Ø‹½Ÿ8Œ|³å:¼¸Ä2u.ÜQbÏ2‹
+Ž{î(Í‰Ñ
+L2®TaÆ”çáuVt‹‚T›ÀdR
+›¿a
+|@ÇÌTQ?Ü ƒ"iO?9B ^X¤ìî±PJŒó¹`
+2Â9¬kç1Ó)¡'ìrGWWsÐ¶Y>boÎ¯kÌb¾L£½Y4mëÌG»=½n2}E
+öS²@/ŽŽ¿<z>Ÿÿ‰5¡ÉºN/Œ¨96¾AØ=x¾ðÐúúèù±îlÆ.Ø‹ñØŽv°-ÚÈwžÙ˜ÈµÍù<8-A*\µ{×Ã¬±J+¬óÌ´Êë­.§Ç×Ãâ"2@åv^=¥¢‘ óŒ‹Q·ÚØ?wÌ¿ý§9 ?L|gBü(p]e"*'×ª„3çõæÀ(’ƒÙšxàV´#ñáK{ç@ù§¿›eÆXŸ¦|Ô
+„Ã™M~
+Íyû[r¿¯ä^²ÈÚèCèjE£( ¶ÔÊUq}ƒ*®oÌ®XXëº»3§»ÂZ÷Që~Rk±Ä*í q8µf£\PyÝ?¹¢,˜1ÝÚãâ™ÏD'*ÄÁó2Øå‘Úf dgn°þð‹P
+6Ù\Ü2 ÑÞ½ÁÐq6…÷Å"ÏQyp»}V¾±zNÄónp“³ªAå·s@ýwÿ×P8@îP\ˆ¬8„°3G6½1˜¿bÒûïçÀ)-æM§îœq0ZDQ†Ê
+„¡¸»U¨­²~.«I,HÐœ¥¨ÌéE¿èw™ò+“èº¡À4-SæægiB§{‰ ÿïtE~8ËØåfi‹{3’M/ÄûhõG,
+4'ˆ]ÙjÜn¬Ôû=ËnGõÊ›»È$ç"ç <½@H]qø½xËHîŠÆ/²:üæ¥pÓº°UµfjDôld’§5Òj6É‘j=…èÅ<èHžºS}îòª’9}ä7ÁœT–gƒ‰»(ã«”y¯´ÎÆð´Ýh“1ðÿhL½¨Ó‡phµQz#¾
+&ãÙœ§{µ€yS—±—Ajô‚8h™ÚE
+¢£zÄ5´÷÷ßýìh/œ!Ìœ÷ˆaz(©?fé §Ô†¤0QœÚîÑá³ƒ½Ó½Y²í¸–HºsPÑ—qZç-J~xoÖ©)>™
+®¨1k 2ÍÌ-ô~šÉ¸áuäOÎ?§ØèÓãÝ/÷Žç«C8ô½’I	ÓÌ3øæ';öOO,hBNN÷v¾<É.eÌ;J’˜Ù˜AìŽvºÝS¶v«Xô“Ñ“ãgT»>;>z´P˜AÏƒSÊ£kÊáÅŒÉºß¨!µüøxç°ÈJò>gh
+Iã¬úT[ÛFõ­l’ú†ËKž}!oŽAÙ}œ«'Nî)XØ$Q&Æ¹0þyfb.‚–·m±N¿)V=3x¨}N›`í„Ý«HD'®Ë™WïaøÀ1ÅJ4=¶Txa8ÝçŒçòVÅKeÁ›a
+“QvƒÖYâ3Îa wcwy×žš‹ !
+[qÔ•L’BV‹c8Ú
+Jôñ^hA‚¬³Fá­-"#ÔØ® kß8‘©w•sfS .Sä´ð	ÀJŸ¶+Pz`¾‡.Ç¢ƒ›©$,ï¿¶B/š8â*€è=ä^,}–e^›+røËÜ$DÀèÉˆÇžWÙ§”ôØ±JQ¯»Y
+`3Ý[Ãâ<…ìæ@ù¤3"ÚØ¨;S±Ÿ9ó’'…éä7Ò¥ml{^¾%¢;…7Jš²lž^îØâ;t.Ý¶©¸a–”eà<(óÒŸ,yñêæ|[jÝä"“¡ÎÐ{…Ùß%‰ß
+ ^6—Ú¢Ž—H¤†jKBpÓ¬jáIÕOm¹î
+éœ¼¡”Fäb‹V…’A—„N@\}gÔsÐ47J1º²eí8šhlgu*íì”?ËE¶ÌìOu#›øL_t0 ïÿ³DZtém%QbÂTHÕ§;_¥ƒ™’ç€"ç,(I@±bÆeŽ)×Ø‰úÕ?\³îî×îZ÷­»—Í¦[-”ClËÕ'æsmõ×Ú¼‹
+Á´}sÝ·šläÕT¦^±m×\³M‰†”2'èÔìÁäA‚¥²ØÖl=àU|¹¼;¤_Ï=÷›ÍxDI—eFåä¸Ê8’ÔâÅ¬HïjëÖzÀuó…%k%ðJªÅÀŠýÜÌ0PËì¥fsÐ¼_£ÿ·èÏjíý¿É¡t-†$ön§i14w¬õËæÃæ=ù»fÝë¯›T´¿Hï$OwéS³qyïÉÝVài1¬1›V¿ŸmÇ
+`jÕ¡×Mº¿;×ò—{³Xf_3AEàñÅ j.7©z½ìž¤wÍËÚªC»·[£¶^[rÏ|¦_ý]~ÝØ3ˆDÁ‘ÎxlàG%÷°v>´îä˜ú¡Êêk!Cºw0ô»Žô+6³%º¦çFí6‡€)sðn –!u"’	“R3vÖ]OÚË¼S"ú”Œ#wˆl¿ÃØê;gžÄ3‰ï6˜® } üÒ@_ëÐÿˆ]Î$"¤€ôDf£„5IZKeƒGRWCñ`en±‚BÄ9[:îÀ=
+t’Ld®ZkôßúFÕºCïnˆ¸Êk_k	ºdðÖ´]T@Û1Ñ*þ ÇzÄé„'ã0v1uJIaDô¨H×Z¤°>Õ:ýk7dÇ,qäÔ"N4‰¬”_³áÖSÿ‹³€ÌÖïŠ®ñ‘o>º&–(%wa÷˜u%å«mÓæGÅB`N­C$T 	’¢
+·žòß›BOgGLß ‰ïi$oˆý“ ¡7h—÷¦XR¾<‡Y^4øC˜©Ù¸)DÇ»xQœ	9yÒÚÏ½lÔçTÅ*ù*~Í"v BEG…yS	Fxà×U:3¡f
+LÏ‡þ7žµßñG‹zuQ2Óíß÷;
+
 }
-html,body{height:100%;background:var(--bg);color:var(--tx);font-family:var(--ff);font-size:16px;overflow:hidden;}
-#wrap{display:flex;flex-direction:column;height:100vh;height:100dvh;}
-#topbar{flex-shrink:0;background:var(--bg);border-bottom:1px solid var(--bd);padding:12px 18px;display:flex;align-items:center;justify-content:space-between;z-index:10;}
-.logo{font-family:var(--fd);font-size:1.2rem;color:var(--green);}
-.datechip{font-family:var(--fm);font-size:.65rem;color:var(--tx2);}
-#content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 18px 24px;}
-#bottomnav{flex-shrink:0;background:var(--bg2);border-top:1px solid var(--bd);display:flex;}
-.tab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:10px 4px 8px;background:none;border:none;color:var(--tx3);font-family:var(--fm);font-size:.54rem;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;}
-.tab svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
-.tab.on{color:var(--green);}
-.screen{display:none;}
-.screen.on{display:block;}
-h1{font-family:var(--fd);font-size:1.8rem;margin-bottom:4px;}
-.sub{font-family:var(--fm);font-size:.65rem;color:var(--tx2);letter-spacing:.08em;margin-bottom:22px;}
-.sh{font-family:var(--fm);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--tx3);border-bottom:1px solid var(--bd);padding-bottom:5px;margin:20px 0 12px;}
-.card{background:var(--bg2);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:12px;}
-.card2{background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:12px 14px;margin-bottom:8px;}
-.btn{width:100%;padding:15px;background:var(--green);border:none;border-radius:12px;font-family:var(--fm);font-size:.8rem;font-weight:500;color:var(--bg);cursor:pointer;letter-spacing:.08em;}
-.btn:active{opacity:.85;}
-.btn.ghost{background:var(--bg3);color:var(--tx2);border:1px solid var(--bd);}
-.inp{width:100%;background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:11px 13px;color:var(--tx);font-family:var(--ff);font-size:.9rem;outline:none;margin-bottom:12px;}
-.inp:focus{border-color:var(--green2);}
-textarea.inp{resize:none;min-height:80px;line-height:1.5;}
-label.lbl{font-size:.78rem;color:var(--tx2);margin-bottom:5px;display:block;}
-
-/* HOME */
-.hero{background:var(--greenlt);border:1px solid var(--green2);border-radius:14px;padding:20px;margin-bottom:18px;display:flex;align-items:center;justify-content:space-between;}
-.heronum{font-family:var(--fd);font-size:3.2rem;color:var(--green);line-height:1;}
-.herolbl{font-family:var(--fm);font-size:.6rem;color:var(--green2);letter-spacing:.1em;text-transform:uppercase;margin-top:2px;}
-.heromsg{font-size:.8rem;color:var(--tx2);max-width:150px;text-align:right;line-height:1.4;}
-.stats3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px;}
-.statbox{background:var(--bg2);border:1px solid var(--bd);border-radius:10px;padding:12px 8px;text-align:center;}
-.statnum{font-family:var(--fm);font-size:1rem;font-weight:500;}
-.statlbl{font-size:.65rem;color:var(--tx2);margin-top:2px;}
-.bigbtn{background:var(--green);border-radius:12px;padding:15px 18px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;border:none;width:100%;margin-bottom:10px;}
-.bigbtn .bt{text-align:left;}
-.bigbtn .btitle{font-weight:600;font-size:.95rem;color:var(--bg);}
-.bigbtn .bsub{font-size:.75rem;color:var(--green2);margin-top:2px;}
-.bigbtn .barrow{font-size:1.4rem;color:var(--bg);}
-.bigbtn.outline{background:var(--bg2);border:1px solid var(--green2);}
-.bigbtn.outline .btitle{color:var(--green);}
-.bigbtn.outline .bsub{color:var(--tx2);}
-.bigbtn.outline .barrow{color:var(--green);}
-.aibx{background:var(--bg2);border:1px solid var(--green2);border-radius:12px;padding:16px;margin-bottom:12px;}
-.aihead{display:flex;align-items:center;gap:7px;margin-bottom:10px;}
-.aidot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite;}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-.ailbl{font-family:var(--fm);font-size:.62rem;letter-spacing:.1em;color:var(--green);text-transform:uppercase;}
-.aibody{font-size:.85rem;line-height:1.65;color:var(--tx2);white-space:pre-wrap;}
-.dim{font-style:italic;color:var(--tx3);}
-
-/* CHECK-IN */
-.dimrow{background:var(--bg2);border:1px solid var(--bd);border-radius:10px;padding:12px 14px;margin-bottom:10px;}
-.dimlbl{font-size:.82rem;font-weight:500;margin-bottom:8px;display:flex;justify-content:space-between;}
-.dimval{font-family:var(--fm);font-size:.78rem;color:var(--green);}
-.pips{display:flex;gap:3px;}
-.pip{flex:1;height:30px;border-radius:4px;border:1px solid var(--bd);background:var(--bg3);font-family:var(--fm);font-size:.68rem;color:var(--tx3);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .1s;}
-.pip.lo{background:#7f1d1d;border-color:var(--red);color:#fca5a5;}
-.pip.md{background:#78350f;border-color:var(--warn);color:#fde68a;}
-.pip.hi{background:#14532d;border-color:var(--green);color:var(--green);}
-.sobrow{display:flex;gap:8px;margin-top:4px;}
-.sobopt{flex:1;padding:10px;border-radius:8px;border:1px solid var(--bd);background:var(--bg3);font-family:var(--fm);font-size:.7rem;color:var(--tx2);cursor:pointer;text-align:center;transition:all .15s;}
-.sobopt.yes{background:#14532d;border-color:var(--green);color:var(--green);}
-.sobopt.no{background:#7f1d1d;border-color:var(--red);color:var(--red);}
-
-/* WORKOUT */
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px;}
-.tile{background:var(--bg2);border:1.5px solid var(--bd);border-radius:12px;padding:14px 10px;text-align:center;cursor:pointer;transition:all .15s;}
-.tile.on{border-color:var(--green);background:var(--greenlt);}
-.tileico{font-size:1.6rem;margin-bottom:5px;}
-.tilelbl{font-size:.8rem;font-weight:600;}
-.tile.on .tilelbl{color:var(--green);}
-.tilesub{font-size:.68rem;color:var(--tx2);margin-top:2px;}
-.durrow{display:flex;gap:6px;margin-bottom:14px;}
-.duropt{flex:1;padding:9px 4px;border:1px solid var(--bd);border-radius:8px;background:var(--bg3);font-family:var(--fm);font-size:.7rem;color:var(--tx2);text-align:center;cursor:pointer;transition:all .15s;}
-.duropt.on{border-color:var(--green);background:var(--greenlt);color:var(--green);}
-.erow{display:flex;gap:4px;margin-bottom:18px;}
-.epip{flex:1;height:34px;border-radius:6px;border:1px solid var(--bd);background:var(--bg3);font-family:var(--fm);font-size:.7rem;color:var(--tx3);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .1s;}
-.epip.lo{background:#3d1515;border-color:var(--red);color:var(--red);}
-.epip.md{background:#3d2e10;border-color:var(--gold);color:var(--gold);}
-.epip.hi{background:#0f3020;border-color:var(--green);color:var(--green);}
-.wkhdr{background:var(--greenlt);border:1px solid var(--green2);border-radius:12px;padding:14px 16px;margin-bottom:14px;}
-.wkbar{height:4px;background:var(--bd);border-radius:2px;margin-top:8px;}
-.wkfill{height:100%;border-radius:2px;background:var(--green);transition:width .4s;}
-.excard{border:1px solid var(--bd);border-radius:10px;overflow:hidden;margin-bottom:10px;}
-.excard.cur{border-color:var(--green2);}
-.excard.done{opacity:.6;}
-.exhdr{padding:12px 14px;background:var(--bg2);display:flex;align-items:center;justify-content:space-between;cursor:pointer;}
-.exnum{font-family:var(--fm);font-size:.6rem;color:var(--tx3);letter-spacing:.1em;}
-.exname{font-size:.9rem;font-weight:600;margin-top:2px;}
-.extgt{font-size:.72rem;color:var(--tx2);margin-top:2px;}
-.exchk{width:24px;height:24px;border-radius:50%;border:1.5px solid var(--bd);display:flex;align-items:center;justify-content:center;font-size:.8rem;flex-shrink:0;}
-.exchk.done{background:var(--green);border-color:var(--green);}
-.exbody{padding:12px 14px;background:var(--bg3);display:none;}
-.excard.cur .exbody{display:block;}
-.setrow{display:grid;grid-template-columns:24px 1fr 1fr 32px;gap:6px;align-items:center;margin-bottom:6px;}
-.setlbl{font-family:var(--fm);font-size:.65rem;color:var(--tx3);text-align:center;}
-.setinp{background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:8px;color:var(--tx);font-family:var(--fm);font-size:.85rem;outline:none;text-align:center;width:100%;}
-.setinp:focus{border-color:var(--green2);}
-.setinp.pr{border-color:var(--gold);color:var(--gold);}
-.setbtn{width:28px;height:28px;border-radius:50%;border:1.5px solid var(--bd);background:var(--bg);color:var(--tx3);font-size:.75rem;cursor:pointer;display:flex;align-items:center;justify-content:center;}
-.setbtn.done{background:var(--green);border-color:var(--green);color:var(--bg);}
-.restbar{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
-.restlbl{font-family:var(--fm);font-size:.65rem;color:var(--tx2);}
-.restbtns{display:flex;gap:5px;}
-.restbtn{font-family:var(--fm);font-size:.65rem;padding:4px 9px;border-radius:5px;border:1px solid var(--bd);background:var(--bg3);color:var(--tx2);cursor:pointer;}
-.nextbtn{width:100%;padding:11px;background:var(--bg);border:1px solid var(--green2);border-radius:9px;color:var(--green);font-family:var(--fm);font-size:.72rem;cursor:pointer;letter-spacing:.06em;}
-.addsetbtn{width:100%;padding:7px;background:transparent;border:1px dashed var(--bd);border-radius:7px;color:var(--tx2);font-family:var(--fm);font-size:.7rem;cursor:pointer;margin-bottom:10px;}
-.prbadge{background:var(--goldlt);border:1px solid var(--gold);border-radius:7px;padding:7px 11px;margin-bottom:10px;display:none;font-family:var(--fm);font-size:.7rem;color:var(--gold);}
-.prbadge.show{display:block;}
-.backupbar{background:rgba(96,165,250,.1);border:1px solid var(--blue);border-radius:9px;padding:9px 12px;margin-bottom:12px;display:flex;align-items:center;gap:9px;cursor:pointer;}
-.backuptxt{font-size:.78rem;color:var(--blue);flex:1;}
-
-/* TRACKERS */
-.trcard{background:var(--bg2);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:10px;}
-.trtop{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:9px;}
-.trname{font-weight:600;font-size:.9rem;}
-.trsrk{font-family:var(--fm);font-size:.7rem;color:var(--green);}
-.trchips{display:flex;gap:5px;flex-wrap:wrap;}
-.dchip{width:27px;height:27px;border-radius:6px;border:1px solid var(--bd);background:var(--bg3);font-family:var(--fm);font-size:.6rem;color:var(--tx3);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .1s;}
-.dchip.done{background:var(--greenlt);border-color:var(--green2);color:var(--green);}
-.addbtn{width:100%;padding:13px;background:transparent;border:1px dashed var(--bd);border-radius:12px;color:var(--tx2);font-family:var(--ff);font-size:.85rem;cursor:pointer;}
-
-/* HISTORY */
-.hentry{background:var(--bg2);border:1px solid var(--bd);border-radius:10px;padding:13px;margin-bottom:9px;}
-.htop{display:flex;justify-content:space-between;margin-bottom:7px;}
-.hdate{font-family:var(--fm);font-size:.7rem;color:var(--tx2);}
-.hscore{font-family:var(--fm);font-size:.88rem;color:var(--green);font-weight:500;}
-.hdims{display:flex;flex-wrap:wrap;gap:3px;}
-.hdim{font-family:var(--fm);font-size:.6rem;padding:2px 5px;border-radius:4px;}
-.dg{background:var(--greenlt);color:var(--green);}
-.dy{background:rgba(251,191,36,.12);color:var(--warn);}
-.dr{background:rgba(248,113,113,.12);color:var(--red);}
-
-/* PROFILE */
-.profhdr{display:flex;align-items:center;gap:12px;margin-bottom:20px;}
-.avatar{width:52px;height:52px;border-radius:50%;background:var(--greenlt);border:2px solid var(--green2);display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:1.3rem;color:var(--green);flex-shrink:0;}
-.profname{font-family:var(--fd);font-size:1.25rem;}
-.profday{font-family:var(--fm);font-size:.65rem;color:var(--tx2);margin-top:2px;}
-.gbar{height:6px;background:var(--bd);border-radius:3px;}
-.gbarfill{height:100%;border-radius:3px;background:var(--green);}
-
-/* MODAL */
-.moverlay{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:1000;display:flex;align-items:flex-end;justify-content:center;}
-.moverlay.hide{display:none;}
-.modal{background:var(--bg2);border:1px solid var(--bd);border-radius:18px 18px 0 0;padding:22px 18px 34px;width:100%;max-width:480px;max-height:85vh;overflow-y:auto;}
-.mtitle{font-family:var(--fd);font-size:1.3rem;margin-bottom:4px;}
-.msub{font-size:.8rem;color:var(--tx2);margin-bottom:16px;}
-.macts{display:flex;gap:9px;margin-top:6px;}
-.mbtn{flex:2;padding:12px;background:var(--green);border:none;border-radius:9px;font-family:var(--fm);font-size:.76rem;color:var(--bg);cursor:pointer;font-weight:500;}
-.mbtn2{flex:1;padding:12px;background:transparent;border:1px solid var(--bd);border-radius:9px;font-family:var(--fm);font-size:.76rem;color:var(--tx2);cursor:pointer;}
-.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:14px;}
-.topt{padding:9px;border:1px solid var(--bd);border-radius:8px;background:var(--bg3);text-align:center;cursor:pointer;font-size:.8rem;color:var(--tx2);transition:all .15s;}
-.topt.on{border-color:var(--green2);background:var(--greenlt);color:var(--green);}
-
-/* PR CELEBRATE */
-.proverlay{position:fixed;inset:0;z-index:2000;display:flex;align-items:center;justify-content:center;pointer-events:none;}
-.proverlay.hide{display:none;}
-.prcelebrate{background:var(--bg2);border:2px solid var(--gold);border-radius:18px;padding:26px 30px;text-align:center;transform:scale(0);transition:transform .3s cubic-bezier(.34,1.56,.64,1);}
-.prcelebrate.show{transform:scale(1);}
-.prhead{font-family:var(--fd);font-size:1.4rem;color:var(--gold);}
-
-/* TOAST */
-.toast{position:fixed;top:70px;left:50%;transform:translateX(-50%);background:var(--green);color:var(--bg);font-family:var(--fm);font-size:.72rem;padding:7px 18px;border-radius:20px;z-index:3000;font-weight:500;pointer-events:none;white-space:nowrap;}
-.toast.hide{display:none;}
-.toast.gold{background:var(--gold);}
-
-/* PROGRESS */
-.liftcard{background:var(--bg2);border:1px solid var(--bd);border-radius:10px;overflow:hidden;margin-bottom:9px;}
-.lifthdr{padding:11px 14px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;}
-.liftbody{padding:0 14px;max-height:0;overflow:hidden;transition:max-height .3s;}
-.liftbody.open{max-height:300px;padding-bottom:12px;}
-.liftrow{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid var(--bd);font-size:.78rem;}
-.liftrow:last-child{border-bottom:none;}
-
-/* FOOTER */
-.footer{text-align:center;padding:18px 0 8px;font-family:var(--fm);font-size:.56rem;color:var(--tx3);}
-</style>
-</head>
-<body>
-<div id="wrap">
-
-<div id="topbar">
-  <div class="logo">POS</div>
-  <div class="datechip" id="topdate"></div>
-</div>
-
-<div id="content">
-
-  <!-- HOME -->
-  <div class="screen on" id="s-home">
-    <h1 id="greeting">Good morning.</h1>
-    <div class="sub">DAY <span id="daynum">1</span> OF 90</div>
-    <div class="hero">
-      <div><div class="heronum" id="streaknum">0</div><div class="herolbl">Day Streak</div></div>
-      <div class="heromsg" id="streakmsg">Log your first check-in to start your streak.</div>
-    </div>
-    <div class="stats3">
-      <div class="statbox"><div class="statnum" id="sw">—</div><div class="statlbl">Weight</div></div>
-      <div class="statbox"><div class="statnum" id="savg">—</div><div class="statlbl">7-Day Avg</div></div>
-      <div class="statbox"><div class="statnum" id="scomp">—</div><div class="statlbl">Compliance</div></div>
-    </div>
-    <button class="bigbtn" onclick="show('checkin')">
-      <div class="bt"><div class="btitle">Log Today's Check-In</div><div class="bsub" id="cistatus">Takes under 2 minutes</div></div>
-      <div class="barrow">→</div>
-    </button>
-    <button class="bigbtn outline" onclick="show('workout')">
-      <div class="bt"><div class="btitle">🏋️ Start a Workout</div><div class="bsub" id="wktstatus">Build your AI training plan</div></div>
-      <div class="barrow">→</div>
-    </button>
-    <div class="sh">Last AI Insight</div>
-    <div class="aibx">
-      <div class="aihead"><div class="aidot"></div><span class="ailbl">Your Coach</span></div>
-      <div class="aibody dim" id="homeai">Log a check-in to receive your personalized daily plan.</div>
-    </div>
-    <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-  </div>
-
-  <!-- CHECK-IN -->
-  <div class="screen" id="s-checkin">
-    <h1>Daily Check-In</h1>
-    <div class="sub" id="cidatelbl"></div>
-    <div id="dimgrid"></div>
-    <div id="sobsec" style="display:none">
-      <div class="sh">Sobriety</div>
-      <div class="sobrow">
-        <div class="sobopt" id="sobyes" onclick="setSob('yes')">✓ Maintained</div>
-        <div class="sobopt" id="sobno" onclick="setSob('no')">✗ Not maintained</div>
-      </div>
-    </div>
-    <div class="sh">Notes for Today</div>
-    <textarea class="inp" id="cinotes" placeholder="How did today go? Any context for your scores..."></textarea>
-    <button class="btn" id="cibtn" onclick="submitCI()">Get My Daily Plan →</button>
-    <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-  </div>
-
-  <!-- AI RESULT -->
-  <div class="screen" id="s-ai">
-    <h1>Your Daily Plan</h1>
-    <div class="sub" id="aidatelbl"></div>
-    <div class="aibx">
-      <div class="aihead"><div class="aidot"></div><span class="ailbl">AI Coach · Personalized for You</span></div>
-      <div class="aibody dim" id="aiout">Analyzing your check-in...</div>
-    </div>
-    <button class="btn ghost" onclick="show('home')" style="margin-bottom:10px;">← Back to Home</button>
-    <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-  </div>
-
-  <!-- WORKOUT -->
-  <div class="screen" id="s-workout">
-    <div id="wv-setup">
-      <h1>Train.</h1>
-      <div class="sub">BUILD YOUR WORKOUT</div>
-      <div class="sh">Equipment</div>
-      <div class="grid2">
-        <div class="tile on" onclick="selT(this,'gym')"><div class="tileico">🏋️</div><div class="tilelbl">Full Gym</div><div class="tilesub">Barbells, machines</div></div>
-        <div class="tile" onclick="selT(this,'dumbbells')"><div class="tileico">💪</div><div class="tilelbl">Dumbbells</div><div class="tilesub">Free weights only</div></div>
-        <div class="tile" onclick="selT(this,'home')"><div class="tileico">🏠</div><div class="tilelbl">Home</div><div class="tilesub">Bodyweight + bands</div></div>
-        <div class="tile" onclick="selT(this,'bodyweight')"><div class="tileico">🧘</div><div class="tilelbl">Bodyweight</div><div class="tilesub">No equipment</div></div>
-      </div>
-      <div class="sh">Time Available</div>
-      <div class="durrow">
-        <div class="duropt" onclick="selD(this,20)">20 min</div>
-        <div class="duropt on" onclick="selD(this,45)">45 min</div>
-        <div class="duropt" onclick="selD(this,60)">60 min</div>
-        <div class="duropt" onclick="selD(this,90)">90 min</div>
-      </div>
-      <div class="sh">Energy Level</div>
-      <div class="erow" id="erow"></div>
-      <div class="sh">Focus</div>
-      <div class="grid2" id="focusgrid">
-        <div class="tile on" onclick="selF(this,'full')"><div class="tileico">⚡</div><div class="tilelbl">Full Body</div><div class="tilesub">Balanced</div></div>
-        <div class="tile" onclick="selF(this,'upper')"><div class="tileico">💪</div><div class="tilelbl">Upper Body</div><div class="tilesub">Chest, back, shoulders</div></div>
-        <div class="tile" onclick="selF(this,'lower')"><div class="tileico">🦵</div><div class="tilelbl">Lower Body</div><div class="tilesub">Legs, glutes, core</div></div>
-        <div class="tile" onclick="selF(this,'cardio')"><div class="tileico">🏃</div><div class="tilelbl">Cardio</div><div class="tilesub">Conditioning</div></div>
-      </div>
-      <button class="btn" id="genbtn" onclick="genWorkout()">Build My Workout →</button>
-      <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-    </div>
-    <div id="wv-active" style="display:none">
-      <div class="wkhdr">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:5px;">
-          <div style="font-family:var(--fd);font-size:1.15rem;" id="wktitle">Loading...</div>
-          <div style="font-family:var(--fm);font-size:.65rem;color:var(--green);background:var(--bg);border:1px solid var(--green2);border-radius:20px;padding:3px 9px;" id="wkbadge">0/0</div>
-        </div>
-        <div style="font-family:var(--fm);font-size:.65rem;color:var(--tx2);" id="wksub"></div>
-        <div class="wkbar"><div class="wkfill" id="wkprog" style="width:0%"></div></div>
-      </div>
-      <div class="backupbar" onclick="loadBackup()">
-        <span style="font-size:1rem;">⚡</span>
-        <div class="backuptxt">Short on time? Switch to <strong>20-min backup</strong></div>
-        <span style="font-family:var(--fm);font-size:.7rem;color:var(--blue);">→</span>
-      </div>
-      <div id="exlist"></div>
-      <button class="btn" id="finbtn" onclick="finishWkt()" style="display:none;margin-top:8px;">Finish Workout ✓</button>
-      <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-    </div>
-    <div id="wv-summary" style="display:none">
-      <h1>Done.</h1>
-      <div class="sub" id="wsumsub">WORKOUT COMPLETE</div>
-      <div class="card" id="wsumcard"></div>
-      <div id="wsumprs"></div>
-      <button class="btn" onclick="resetWkt()" style="margin-top:8px;">Train Again →</button>
-      <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-    </div>
-  </div>
-
-  <!-- TRACKERS -->
-  <div class="screen" id="s-trackers">
-    <h1>My Trackers</h1>
-    <div class="sub">CUSTOM HABITS & GOALS</div>
-    <div id="trlist"></div>
-    <button class="addbtn" onclick="openAddTr()">+ Add a New Tracker</button>
-    <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-  </div>
-
-  <!-- HISTORY -->
-  <div class="screen" id="s-history">
-    <h1>History</h1>
-    <div class="sub">YOUR CHECK-IN LOG</div>
-    <div id="hlist"></div>
-    <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-  </div>
-
-  <!-- PROFILE -->
-  <div class="screen" id="s-profile">
-    <h1>My Profile</h1>
-    <div class="sub">90-DAY PROGRAM</div>
-    <div class="profhdr">
-      <div class="avatar" id="pavatar">?</div>
-      <div><div class="profname" id="pname">Your Name</div><div class="profday">Day <span id="pdaynum">1</span> of 90</div></div>
-    </div>
-    <div id="goalbar"></div>
-    <div class="sh">Settings</div>
-    <div class="card">
-      <label class="lbl">Your Name</label>
-      <input class="inp" id="sname" placeholder="First name" oninput="saveS()">
-      <label class="lbl">Current Weight (lbs)</label>
-      <input class="inp" id="sweight" type="number" placeholder="e.g. 240" oninput="saveS()">
-      <label class="lbl">Goal Weight (lbs)</label>
-      <input class="inp" id="sgoalwt" type="number" placeholder="e.g. 215" oninput="saveS()">
-      <label class="lbl" style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-bottom:0;">
-        <input type="checkbox" id="ssober" onchange="saveS()" style="accent-color:var(--green);width:16px;height:16px;">
-        Enable sobriety tracking
-      </label>
-    </div>
-    <div class="sh">Primary Goals</div>
-    <div class="card">
-      <textarea class="inp" id="sgoals" placeholder="e.g. Lose 25 lbs, reverse prediabetes, maintain sobriety..." oninput="saveS()" style="margin-bottom:0;min-height:70px;"></textarea>
-    </div>
-    <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-  </div>
-
-  <!-- PROGRESS -->
-  <div class="screen" id="s-progress">
-    <h1>Progress.</h1>
-    <div class="sub">LIFT HISTORY & PRs</div>
-    <div id="progsec"></div>
-    <div class="footer">© 2025 Personal Operating System · All rights reserved.</div>
-  </div>
-
-</div><!-- /content -->
-
-<!-- BOTTOM NAV -->
-<div id="bottomnav">
-  <button class="tab on" id="t-home" onclick="show('home')">
-    <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-    Home
-  </button>
-  <button class="tab" id="t-checkin" onclick="show('checkin')">
-    <svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-    Check-In
-  </button>
-  <button class="tab" id="t-workout" onclick="show('workout')">
-    <svg viewBox="0 0 24 24"><path d="M6 4v16M18 4v16M3 8h4m10 0h4M3 16h4m10 0h4M7 8h10v8H7z"/></svg>
-    Train
-  </button>
-  <button class="tab" id="t-trackers" onclick="show('trackers')">
-    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
-    Track
-  </button>
-  <button class="tab" id="t-history" onclick="show('history')">
-    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-    History
-  </button>
-  <button class="tab" id="t-profile" onclick="show('profile')">
-    <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-    Me
-  </button>
-</div>
-
-</div><!-- /wrap -->
-
-<!-- TRACKER MODAL -->
-<div class="moverlay hide" id="trmodal" onclick="if(event.target===this)this.classList.add('hide')">
-  <div class="modal">
-    <div class="mtitle">New Tracker</div>
-    <div class="msub">Track anything — sobriety, waist, reading, water, steps, or any habit.</div>
-    <label class="lbl">Name</label>
-    <input class="inp" id="tname" placeholder="e.g. Daily Reading, Waist Size...">
-    <label class="lbl">Type</label>
-    <div class="tgrid">
-      <div class="topt on" onclick="selTT(this,'yesno')" data-t="yesno">✓ Yes/No<br><small style="font-size:.68rem;opacity:.7;">Did I do it?</small></div>
-      <div class="topt" onclick="selTT(this,'number')" data-t="number">123 Number<br><small style="font-size:.68rem;opacity:.7;">Log a value</small></div>
-      <div class="topt" onclick="selTT(this,'streak')" data-t="streak">🔥 Streak<br><small style="font-size:.68rem;opacity:.7;">Count days</small></div>
-      <div class="topt" onclick="selTT(this,'scale')" data-t="scale">⚡ Scale 1-10<br><small style="font-size:.68rem;opacity:.7;">Rate it</small></div>
-    </div>
-    <div id="unitwrap" style="display:none">
-      <label class="lbl">Unit (optional)</label>
-      <input class="inp" id="tunit" placeholder="e.g. lbs, oz, minutes">
-    </div>
-    <label class="lbl">Emoji Icon</label>
-    <input class="inp" id="temoji" placeholder="📖 💪 🧘 💧" maxlength="4">
-    <div class="macts">
-      <button class="mbtn2" onclick="document.getElementById('trmodal').classList.add('hide')">Cancel</button>
-      <button class="mbtn" onclick="addTracker()">Add Tracker</button>
-    </div>
-  </div>
-</div>
-
-<!-- PR OVERLAY -->
-<div class="proverlay hide" id="proverlay">
-  <div class="prcelebrate" id="prcelebrate">
-    <div style="font-size:2.4rem;margin-bottom:8px;">🏆</div>
-    <div class="prhead">Personal Record!</div>
-    <div style="font-family:var(--fm);font-size:.76rem;color:var(--tx2);margin-top:6px;" id="prdetail"></div>
-  </div>
-</div>
-
-<!-- TOAST -->
-<div class="toast hide" id="toast"></div>
-
-<script>
-// ── STORAGE ──────────────────────────────────────────
-function gl(k,d){try{const v=localStorage.getItem(k);return v!==null?JSON.parse(v):d;}catch(e){return d;}}
-function sl(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
-
-// ── DATA ─────────────────────────────────────────────
-const DIMS=[
-  {k:'weight',l:'Weight',e:'⚖️'},{k:'sleep',l:'Sleep',e:'😴'},
-  {k:'energy',l:'Energy',e:'⚡'},{k:'mood',l:'Mood',e:'🧠'},
-  {k:'stress',l:'Stress',e:'🌊'},{k:'workout',l:'Workout',e:'🏋️'},
-  {k:'digestion',l:'Digestion',e:'🌿'},{k:'protein',l:'Protein',e:'🥩'},
-  {k:'water',l:'Water',e:'💧'},{k:'cravings',l:'Cravings',e:'🎯'},
-];
-const BASE_EX=[
-  {id:'bp',n:'Barbell Bench Press',g:'chest',eq:'barbell',e:'🏋️'},
-  {id:'dbp',n:'Dumbbell Bench Press',g:'chest',eq:'dumbbell',e:'💪'},
-  {id:'pu',n:'Push-Ups',g:'chest',eq:'bodyweight',e:'🤸'},
-  {id:'dl',n:'Deadlift',g:'back',eq:'barbell',e:'⚓'},
-  {id:'row',n:'Barbell Row',g:'back',eq:'barbell',e:'🚣'},
-  {id:'lp',n:'Lat Pulldown',g:'back',eq:'machine',e:'⬇️'},
-  {id:'pu2',n:'Pull-Ups',g:'back',eq:'bodyweight',e:'🏔️'},
-  {id:'dbr',n:'Dumbbell Row',g:'back',eq:'dumbbell',e:'💪'},
-  {id:'ohp',n:'Overhead Press',g:'shoulders',eq:'barbell',e:'🏋️'},
-  {id:'lrl',n:'Lateral Raises',g:'shoulders',eq:'dumbbell',e:'🦅'},
-  {id:'bc',n:'Barbell Curl',g:'arms',eq:'barbell',e:'💪'},
-  {id:'td',n:'Tricep Dips',g:'arms',eq:'bodyweight',e:'⬇️'},
-  {id:'sq',n:'Back Squat',g:'legs',eq:'barbell',e:'👑'},
-  {id:'leg',n:'Leg Press',g:'legs',eq:'machine',e:'🦵'},
-  {id:'bg',n:'Bulgarian Split Squat',g:'legs',eq:'dumbbell',e:'🦵'},
-  {id:'bsq',n:'Bodyweight Squat',g:'legs',eq:'bodyweight',e:'🦵'},
-  {id:'gob',n:'Goblet Squat',g:'legs',eq:'dumbbell',e:'🏺'},
-  {id:'hip',n:'Hip Thrust',g:'glutes',eq:'barbell',e:'🍑'},
-  {id:'rdl',n:'Romanian Deadlift',g:'glutes',eq:'barbell',e:'⚓'},
-  {id:'drdl',n:'DB Romanian Deadlift',g:'glutes',eq:'dumbbell',e:'⚓'},
-  {id:'pl',n:'Plank',g:'core',eq:'bodyweight',e:'🧱'},
-  {id:'mc',n:'Mountain Climbers',g:'core',eq:'bodyweight',e:'🏔️'},
-  {id:'rv',n:'Rowing Machine',g:'cardio',eq:'machine',e:'🚣'},
-  {id:'br',n:'Burpees',g:'cardio',eq:'bodyweight',e:'🔥'},
-];
-let S   =gl('pos_s',{name:'',weight:'',goalwt:'',sober:false,goals:'',start:new Date().toISOString().slice(0,10)});
-let CIs =gl('pos_ci',[]);
-let TRs =gl('pos_tr',[
-  {id:'t1',name:'Sobriety',type:'streak',emoji:'🙏',logs:{}},
-  {id:'t2',name:'Daily Reading',type:'yesno',emoji:'📖',logs:{}},
-  {id:'t3',name:'Waist Size',type:'number',unit:'in',emoji:'📏',logs:{}},
-]);
-let EXs =gl('pos_ex',BASE_EX);
-let WLogs=gl('pos_wl',[]);
-let PRs  =gl('pos_pr',{});
-let wSetup={type:'gym',dur:45,energy:7,focus:'full'};
-let wState={wkt:null};
-let trType='yesno';
-let restTO=null,wSecs=0,wInt=null;
-
-// ── NAVIGATION ───────────────────────────────────────
-function show(id){
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('on'));
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
-  document.getElementById('s-'+id).classList.add('on');
-  const tb=document.getElementById('t-'+id);
-  if(tb)tb.classList.add('on');
-  document.getElementById('content').scrollTop=0;
-  if(id==='home')renderHome();
-  if(id==='checkin')renderCI();
-  if(id==='trackers')renderTr();
-  if(id==='history')renderHist();
-  if(id==='profile')renderProf();
-  if(id==='progress')renderProg();
-}
-
-// ── HOME ─────────────────────────────────────────────
-function td(){return new Date().toISOString().slice(0,10);}
-function streak(){
-  let s=0,d=new Date();
-  for(let i=0;i<91;i++){if(CIs.find(c=>c.date===d.toISOString().slice(0,10))){s++;d.setDate(d.getDate()-1);}else break;}
-  return s;
-}
-function renderHome(){
-  const h=new Date().getHours();
-  const g=h<12?'Good morning.':h<17?'Good afternoon.':'Good evening.';
-  document.getElementById('greeting').textContent=g+(S.name?' '+S.name.split(' ')[0]+'.':'');
-  const start=new Date(S.start),day=Math.max(1,Math.floor((Date.now()-start)/86400000)+1);
-  document.getElementById('daynum').textContent=Math.min(day,90);
-  const str=streak();
-  document.getElementById('streaknum').textContent=str;
-  document.getElementById('streakmsg').textContent=str===0?'Log your first check-in to start your streak.':str<7?str+' day'+(str>1?'s':'')+' in. Keep going.':str<30?str+' days strong.':str+' days. This is who you are now.';
-  if(S.weight)document.getElementById('sw').textContent=S.weight+'lb';
-  const r7=CIs.slice(-7);
-  if(r7.length)document.getElementById('savg').textContent=(r7.reduce((a,b)=>a+b.avg,0)/r7.length).toFixed(1);
-  const td2=Math.min(day,90);
-  document.getElementById('scomp').textContent=td2>0?Math.round(CIs.length/td2*100)+'%':'—';
-  document.getElementById('cistatus').textContent=CIs.find(c=>c.date===td())?'✓ Completed — view your plan':'Takes under 2 minutes';
-  document.getElementById('wktstatus').textContent=WLogs.find(w=>w.date===td())?'✓ Workout logged today':'Build your AI training plan';
-  const last=CIs[CIs.length-1];
-  if(last&&last.air){const el=document.getElementById('homeai');el.textContent=last.air.slice(0,220).replace(/\n/g,' ')+'…';el.classList.remove('dim');}
-}
-
-// ── CHECK-IN ──────────────────────────────────────────
-function renderCI(){
-  document.getElementById('cidatelbl').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}).toUpperCase();
-  const g=document.getElementById('dimgrid');g.innerHTML='';
-  DIMS.forEach(dim=>{
-    const d=document.createElement('div');d.className='dimrow';
-    d.innerHTML=`<div class="dimlbl"><span>${dim.e} ${dim.l}</span><span class="dimval" id="dv-${dim.k}">—</span></div><div class="pips" id="pp-${dim.k}"></div>`;
-    g.appendChild(d);
-    const pr=document.getElementById('pp-'+dim.k);
-    for(let i=1;i<=10;i++){const p=document.createElement('div');p.className='pip';p.textContent=i;p.onclick=()=>selPip(dim.k,i);pr.appendChild(p);}
-  });
-  document.getElementById('sobsec').style.display=S.sober?'block':'none';
-  document.getElementById('sobyes').className='sobopt';
-  document.getElementById('sobno').className='sobopt';
-  document.getElementById('cinotes').value='';
-  window._cs={};window._sob=null;
-}
-function selPip(k,v){
-  window._cs[k]=v;
-  document.querySelectorAll('#pp-'+k+' .pip').forEach((p,i)=>{p.className='pip';if(i+1===v)p.classList.add(v<=3?'lo':v<=6?'md':'hi');});
-  document.getElementById('dv-'+k).textContent=v;
-}
-function setSob(v){window._sob=v;document.getElementById('sobyes').className='sobopt'+(v==='yes'?' yes':'');document.getElementById('sobno').className='sobopt'+(v==='no'?' no':'');}
-async function submitCI(){
-  if(Object.keys(window._cs||{}).length<8){toast('Score at least 8 dimensions');return;}
-  const btn=document.getElementById('cibtn');btn.disabled=true;btn.textContent='Generating your plan...';
-  const vals=Object.values(window._cs);
-  const avg=+(vals.reduce((a,b)=>a+b,0)/vals.length).toFixed(1);
-  const notes=document.getElementById('cinotes').value;
-  show('ai');
-  document.getElementById('aidatelbl').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}).toUpperCase();
-  document.getElementById('aiout').textContent='Analyzing your check-in...';
-  document.getElementById('aiout').classList.add('dim');
-  const air=await getAI(window._cs,window._sob,notes);
-  const entry={date:td(),scores:window._cs,sob:window._sob,notes,avg,air};
-  const ei=CIs.findIndex(c=>c.date===td());
-  if(ei>=0)CIs[ei]=entry;else CIs.push(entry);
-  sl('pos_ci',CIs);
-  document.getElementById('aiout').textContent=air;
-  document.getElementById('aiout').classList.remove('dim');
-  btn.disabled=false;btn.textContent='Get My Daily Plan →';
-  toast('Check-in saved ✓');
-}
-async function getAI(scores,sob,notes){
-  const sl2=Object.entries(scores).map(([k,v])=>k+': '+v+'/10').join(', ');
-  const avg=+(Object.values(scores).reduce((a,b)=>a+b,0)/Object.values(scores).length).toFixed(1);
-  try{
-    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:1000,system:'You are a personal health and accountability coach for the Personal Operating System. Direct, warm, practical. Give a specific daily plan with 4 sections: TRAINING, NUTRITION, MENTAL, and GOAL CHECK. Reference actual scores. Under 350 words. End with one "Win for Today." If sobriety not maintained, address that first.',messages:[{role:'user',content:`Scores: ${sl2}\nAvg: ${avg}/10\n${sob?'Sobriety: '+(sob==='yes'?'Maintained ✓':'NOT MAINTAINED'):''}${notes?'\nNotes: "'+notes+'"':''}${S.goals?'\nGoals: '+S.goals:''}${S.weight&&S.goalwt?'\nWeight: '+S.weight+'lbs → '+S.goalwt+'lbs goal':''}\n\nGive their personalized daily plan.`}]})});
-    const d=await r.json();return d.content?.[0]?.text||'Unable to generate. Try again.';
-  }catch(e){return 'Connection error. Check internet and try again.';}
-}
-
-// ── WORKOUT ───────────────────────────────────────────
-function selT(el,t){document.querySelectorAll('.grid2:not(#focusgrid) .tile').forEach(x=>x.classList.remove('on'));el.classList.add('on');wSetup.type=t;}
-function selD(el,d){document.querySelectorAll('.duropt').forEach(x=>x.classList.remove('on'));el.classList.add('on');wSetup.dur=d;}
-function selF(el,f){document.querySelectorAll('#focusgrid .tile').forEach(x=>x.classList.remove('on'));el.classList.add('on');wSetup.focus=f;}
-function selE(el,v){document.querySelectorAll('.epip').forEach(x=>x.className='epip');el.classList.add(v<=3?'lo':v<=6?'md':'hi');wSetup.energy=v;}
-(function(){const r=document.getElementById('erow');for(let i=1;i<=10;i++){const p=document.createElement('div');p.className='epip';p.textContent=i;p.onclick=()=>selE(p,i);if(i===7){p.classList.add('hi');wSetup.energy=7;}r.appendChild(p);}})();
-
-async function genWorkout(){
-  const btn=document.getElementById('genbtn');btn.disabled=true;btn.textContent='Building your workout...';
-  const rec=WLogs.slice(-5).map(w=>`${w.date}: ${w.focus} ${w.type} ${w.dur}min`).join('\n')||'No history.';
-  const prc=Object.entries(PRs).map(([id,pr])=>{const ex=EXs.find(e=>e.id===id);return ex?`${ex.n}: ${pr.w}lbs x ${pr.r}`:null;}).filter(Boolean).slice(0,8).join(', ')||'No PRs.';
-  const prompt=`Build a workout for Personal Operating System. Respond ONLY with JSON, no markdown.\n\nEquipment: ${wSetup.type}\nTime: ${wSetup.dur}min\nEnergy: ${wSetup.energy}/10\nFocus: ${wSetup.focus}\nHistory: ${rec}\nPRs: ${prc}\n\nJSON format:\n{"title":"Short name","subtitle":"Description","note":"One coaching sentence","exercises":[{"id":"use existing id or new","name":"Name","sets":3,"reps":"8-10","wtnote":"Start at X lbs","rest":90,"tip":"Form cue"}],"backup":[{"id":"id","name":"Name","sets":2,"reps":"12-15","wtnote":"lighter","rest":60,"tip":"quick"}]}\n\nEnergy 1-4=easier/bodyweight, 7-10=heavier. ${wSetup.dur<=30?'3-4':'4-6'} main exercises, 3 backup. Only ${wSetup.type} equipment.`;
-  try{
-    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:1000,messages:[{role:'user',content:prompt}]})});
-    const d=await r.json();let t=d.content?.[0]?.text||'{}';t=t.replace(/```json|```/g,'').trim();
-    startWkt(JSON.parse(t));
-  }catch(e){startWkt(fallbackWkt());}
-  btn.disabled=false;btn.textContent='Build My Workout →';
-}
-function fallbackWkt(){
-  const em={gym:['barbell','dumbbell','machine','bodyweight'],dumbbells:['dumbbell','bodyweight'],home:['bodyweight','band'],bodyweight:['bodyweight']};
-  const fm={full:null,upper:['chest','back','shoulders','arms'],lower:['legs','glutes','core'],cardio:['cardio','core']};
-  let pool=EXs.filter(e=>(em[wSetup.type]||['bodyweight']).includes(e.eq));
-  const fg=fm[wSetup.focus];if(fg)pool=pool.filter(e=>fg.includes(e.g));
-  const picked=pool.sort(()=>Math.random()-.5).slice(0,wSetup.dur<=30?3:4);
-  return{title:wSetup.focus.charAt(0).toUpperCase()+wSetup.focus.slice(1)+' Session',subtitle:wSetup.dur+'min '+wSetup.type,note:wSetup.energy>=7?'Energy is high — push the weights.':'Low energy. Focus on form.',exercises:picked.map(e=>({id:e.id,name:e.n,sets:wSetup.energy>=7?4:3,reps:'8-12',wtnote:'Start conservative',rest:90,tip:'Full range of motion.'})),backup:picked.slice(0,3).map(e=>({id:e.id,name:e.n,sets:2,reps:'12-15',wtnote:'Lighter',rest:60,tip:'Quick version'}))};
-}
-function startWkt(w){
-  wState.wkt=w;
-  document.getElementById('wv-setup').style.display='none';
-  document.getElementById('wv-active').style.display='block';
-  document.getElementById('wv-summary').style.display='none';
-  document.getElementById('wktitle').textContent=w.title;
-  document.getElementById('wksub').textContent=w.note||w.subtitle||'';
-  if(wInt)clearInterval(wInt);wSecs=0;wInt=setInterval(()=>wSecs++,1000);
-  renderExs(w.exercises);
-}
-function loadBackup(){
-  if(!wState.wkt?.backup)return;
-  wState.wkt.exercises=wState.wkt.backup;
-  document.getElementById('wktitle').textContent='⚡ '+wState.wkt.title+' (Short)';
-  document.querySelector('.backupbar').style.display='none';
-  renderExs(wState.wkt.exercises);
-  toast('Switched to 20-min version');
-}
-function renderExs(exList){
-  const list=document.getElementById('exlist');list.innerHTML='';
-  exList.forEach((ex,idx)=>{
-    const pr=PRs[ex.id];
-    const card=document.createElement('div');card.className='excard'+(idx===0?' cur':'');card.id='ec-'+idx;
-    card.innerHTML=`<div class="exhdr" onclick="toggleEx(${idx})"><div class="ex-info"><div class="exnum">EXERCISE ${idx+1} OF ${exList.length}</div><div class="exname">${EXs.find(e=>e.id===ex.id)?.e||'💪'} ${ex.name}</div><div class="extgt">${ex.sets} sets × ${ex.reps} · ${ex.wtnote}</div></div><div class="exchk${idx===0?' done':''}" id="eck-${idx}">${idx===0?'✓':''}</div></div><div class="exbody"><div class="prbadge" id="prbdg-${idx}">${pr?'🏆 PR: '+pr.w+'lbs × '+pr.r+' ('+pr.date+')':''}</div><div class="set-logger" id="sl-${idx}"><div class="setrow" style="opacity:.5;"><div class="setlbl">#</div><div class="setlbl">REPS</div><div class="setlbl">WEIGHT</div><div></div></div></div><button class="addsetbtn" onclick="addSetRow(${idx})">+ Add Set</button><div class="restbar"><span class="restlbl">Rest Timer</span><div class="restbtns"><button class="restbtn" onclick="startRest(60)">60s</button><button class="restbtn" onclick="startRest(90)">90s</button><button class="restbtn" onclick="startRest(120)">2min</button></div></div><div style="font-size:.76rem;color:var(--tx2);margin-bottom:10px;line-height:1.5;">💡 ${ex.tip||'Full range of motion.'}</div><button class="nextbtn" onclick="nextEx(${idx})">${idx<exList.length-1?'Next Exercise →':'Finish Last Set ✓'}</button></div>`;
-    list.appendChild(card);
-    if(pr)document.getElementById('prbdg-'+idx).classList.add('show');
-    for(let s=0;s<(ex.sets||3);s++)addSetRowN(idx,s,ex);
-  });
-  updWkProg();
-}
-function addSetRowN(ei,si,ex){
-  const c=document.getElementById('sl-'+ei);if(!c)return;
-  const r=document.createElement('div');r.className='setrow';
-  r.innerHTML=`<div class="setlbl">${si+1}</div><input class="setinp" type="number" placeholder="${ex?.reps?.split('-')?.[0]||'0'}" id="rp-${ei}-${si}" onchange="onSC(${ei},${si})" inputmode="numeric"><input class="setinp" type="number" placeholder="lbs" step="2.5" id="wt-${ei}-${si}" onchange="onSC(${ei},${si})" inputmode="decimal"><button class="setbtn" id="sb-${ei}-${si}" onclick="togSet(${ei},${si})">○</button>`;
-  c.appendChild(r);
-}
-function addSetRow(ei){
-  const c=document.getElementById('sl-'+ei);const count=c.querySelectorAll('.setrow').length-1;const ex=wState.wkt.exercises[ei];addSetRowN(ei,count,ex);}
-function onSC(ei,si){
-  const w=parseFloat(document.getElementById('wt-'+ei+'-'+si)?.value)||0;
-  const r=parseFloat(document.getElementById('rp-'+ei+'-'+si)?.value)||0;
-  const ex=wState.wkt.exercises[ei];const p=PRs[ex.id];const we=document.getElementById('wt-'+ei+'-'+si);
-  if(w>0&&r>0&&p&&(w*r>p.w*p.r||w>p.w)){we?.classList.add('pr');const b=document.getElementById('prbdg-'+ei);if(b){b.classList.add('show');b.textContent='🔥 POTENTIAL PR — Best: '+p.w+'lbs × '+p.r;}}
-  else{we?.classList.remove('pr');}
-}
-function togSet(ei,si){
-  const r=parseFloat(document.getElementById('rp-'+ei+'-'+si)?.value)||0;
-  const w=parseFloat(document.getElementById('wt-'+ei+'-'+si)?.value)||0;
-  const btn=document.getElementById('sb-'+ei+'-'+si);const done=btn.classList.contains('done');
-  btn.classList.toggle('done',!done);btn.textContent=done?'○':'✓';
-  if(!done&&r>0)chkPR(ei,r,w);
-}
-function chkPR(ei,reps,weight){
-  const ex=wState.wkt.exercises[ei];const p=PRs[ex.id];const vol=weight*reps;
-  if(!p||(weight>0&&reps>0&&(weight>p.w||vol>p.w*p.r))){
-    PRs[ex.id]={w:weight,r:reps,vol,date:new Date().toLocaleDateString('en-US',{month:'short',day:'numeric'})};
-    sl('pos_pr',PRs);celebratePR(ex.name,weight,reps);
-  }
-}
-function celebratePR(name,w,r){
-  document.getElementById('prdetail').textContent=name+' · '+w+'lbs × '+r+' reps';
-  const o=document.getElementById('proverlay');const c=document.getElementById('prcelebrate');
-  o.classList.remove('hide');setTimeout(()=>c.classList.add('show'),10);
-  setTimeout(()=>{c.classList.remove('show');setTimeout(()=>o.classList.add('hide'),300);},2800);
-  toast('🏆 New PR!',true);
-}
-function toggleEx(idx){document.querySelectorAll('.excard').forEach((c,i)=>c.classList.toggle('cur',i===idx));}
-function nextEx(idx){
-  const ch=document.getElementById('eck-'+idx);if(ch){ch.classList.add('done');ch.textContent='✓';}
-  document.getElementById('ec-'+idx)?.classList.add('done');
-  const next=idx+1;
-  if(next<wState.wkt.exercises.length){toggleEx(next);document.getElementById('ec-'+next)?.scrollIntoView({behavior:'smooth',block:'start'});}
-  else{document.getElementById('finbtn').style.display='block';document.getElementById('finbtn').scrollIntoView({behavior:'smooth'});}
-  updWkProg();
-}
-function updWkProg(){
-  const tot=wState.wkt?.exercises?.length||1;const done=document.querySelectorAll('.excard.done').length;
-  document.getElementById('wkprog').style.width=Math.round(done/tot*100)+'%';
-  document.getElementById('wkbadge').textContent=done+'/'+tot;
-}
-function startRest(s){
-  if(restTO)clearTimeout(restTO);let rem=s;
-  const upd=()=>{if(rem<=0){toast('Rest done — go! 💪');return;}restTO=setTimeout(upd,1000);rem--;};
-  upd();toast('Rest: '+s+'s started');
-}
-function finishWkt(){
-  clearInterval(wInt);const mins=Math.round(wSecs/60);let tv=0;const le=[];
-  wState.wkt.exercises.forEach((ex,ei)=>{const sets=[];let si=0;while(document.getElementById('rp-'+ei+'-'+si)){const r=parseFloat(document.getElementById('rp-'+ei+'-'+si)?.value)||0;const w=parseFloat(document.getElementById('wt-'+ei+'-'+si)?.value)||0;const d=document.getElementById('sb-'+ei+'-'+si)?.classList.contains('done');if(r>0){sets.push({r,w,d});tv+=w*r;}si++;}le.push({id:ex.id,name:ex.name,sets});});
-  WLogs.push({date:td(),type:wSetup.type,focus:wSetup.focus,dur:mins,vol:Math.round(tv),exercises:le});
-  sl('pos_wl',WLogs);
-  document.getElementById('wv-active').style.display='none';
-  document.getElementById('wv-summary').style.display='block';
-  document.getElementById('wsumsub').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}).toUpperCase();
-  const tpr=Object.entries(PRs).filter(([,p])=>p.date===new Date().toLocaleDateString('en-US',{month:'short',day:'numeric'}));
-  document.getElementById('wsumcard').innerHTML=`<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;text-align:center;"><div><div style="font-family:var(--fm);font-size:1.35rem;color:var(--green);">${mins}</div><div style="font-size:.68rem;color:var(--tx2);">minutes</div></div><div><div style="font-family:var(--fm);font-size:1.35rem;color:var(--green);">${le.length}</div><div style="font-size:.68rem;color:var(--tx2);">exercises</div></div><div><div style="font-family:var(--fm);font-size:1.35rem;color:var(--green);">${tv>0?Math.round(tv).toLocaleString():'—'}</div><div style="font-size:.68rem;color:var(--tx2);">lbs moved</div></div></div>${tpr.length?`<div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--bd);font-family:var(--fm);font-size:.7rem;color:var(--gold);">🏆 ${tpr.length} new PR${tpr.length>1?'s':''} today</div>`:''}`;
-  document.getElementById('wsumprs').innerHTML=tpr.map(([id,pr])=>{const ex=EXs.find(e=>e.id===id);return`<div class="card2" style="border-color:var(--gold);background:var(--goldlt);">🏆 <strong>${ex?.n||id}</strong> · ${pr.w}lbs × ${pr.r} reps</div>`;}).join('');
-  toast('Workout saved ✓');
-}
-function resetWkt(){
-  document.getElementById('wv-setup').style.display='block';
-  document.getElementById('wv-active').style.display='none';
-  document.getElementById('wv-summary').style.display='none';
-  document.getElementById('finbtn').style.display='none';
-  document.querySelector('.backupbar').style.display='flex';
-}
-
-// ── TRACKERS ─────────────────────────────────────────
-function renderTr(){
-  const list=document.getElementById('trlist');list.innerHTML='';
-  if(!TRs.length){list.innerHTML='<div class="card2" style="color:var(--tx3);">No trackers yet.</div>';return;}
-  TRs.forEach(t=>{
-    const str=calcTStr(t);const l7=last7(t);
-    const card=document.createElement('div');card.className='trcard';
-    card.innerHTML=`<div class="trtop"><div class="trname">${t.emoji||'📌'} ${t.name} <span style="font-weight:300;color:var(--tx2);font-size:.72rem;">${t.unit||t.type}</span></div><div class="trsrk">${str>0?str+'🔥':''}</div></div><div class="trchips" id="tc-${t.id}"></div>`;
-    list.appendChild(card);
-    const tc=document.getElementById('tc-'+t.id);
-    l7.forEach(({date,label,done})=>{const chip=document.createElement('div');chip.className='dchip'+(done?' done':'');chip.textContent=label;chip.onclick=()=>logTr(t.id,date,t.type);tc.appendChild(chip);});
-    if(t.type==='number'||t.type==='scale'){const inp=document.createElement('input');inp.type='number';inp.placeholder=t.type==='scale'?'1-10':'Enter value';inp.className='inp';inp.style='margin-top:8px;margin-bottom:0;';inp.value=t.logs[td()]||'';inp.onchange=()=>{t.logs[td()]=inp.value;sl('pos_tr',TRs);renderTr();};card.appendChild(inp);}
-  });
-}
-function last7(t){const d=[];for(let i=6;i>=0;i--){const dt=new Date();dt.setDate(dt.getDate()-i);const ds=dt.toISOString().slice(0,10);const v=t.logs[ds];const done=t.type==='yesno'||t.type==='streak'?v===true||v===1:v!=null&&v!=='';d.push({date:ds,label:dt.toLocaleDateString('en-US',{weekday:'narrow'}),done});}return d;}
-function calcTStr(t){let s=0,d=new Date();for(let i=0;i<365;i++){const ds=d.toISOString().slice(0,10);const v=t.logs[ds];const done=t.type==='yesno'||t.type==='streak'?v===true||v===1:v!=null&&v!=='';if(done){s++;d.setDate(d.getDate()-1);}else break;}return s;}
-function logTr(id,date,type){const t=TRs.find(x=>x.id===id);if(!t)return;if(type==='yesno'||type==='streak'){t.logs[date]=!t.logs[date];sl('pos_tr',TRs);renderTr();}}
-function openAddTr(){document.getElementById('tname').value='';document.getElementById('temoji').value='';document.getElementById('tunit').value='';document.querySelectorAll('.topt').forEach(o=>o.classList.remove('on'));document.querySelector('[data-t="yesno"]').classList.add('on');trType='yesno';document.getElementById('unitwrap').style.display='none';document.getElementById('trmodal').classList.remove('hide');}
-function selTT(el,t){document.querySelectorAll('.topt').forEach(o=>o.classList.remove('on'));el.classList.add('on');trType=t;document.getElementById('unitwrap').style.display=t==='number'?'block':'none';}
-function addTracker(){const name=document.getElementById('tname').value.trim();if(!name){toast('Enter a tracker name');return;}TRs.push({id:'t'+Date.now(),name,type:trType,emoji:document.getElementById('temoji').value||'📌',unit:document.getElementById('tunit').value||'',logs:{}});sl('pos_tr',TRs);document.getElementById('trmodal').classList.add('hide');renderTr();toast('Tracker added ✓');}
-
-// ── HISTORY ───────────────────────────────────────────
-function renderHist(){
-  const list=document.getElementById('hlist');list.innerHTML='';
-  if(!CIs.length){list.innerHTML='<div class="card2" style="color:var(--tx3);">No check-ins logged yet.</div>';return;}
-  [...CIs].reverse().forEach(ci=>{
-    const d=new Date(ci.date+'T12:00:00');const el=document.createElement('div');el.className='hentry';
-    const chips=Object.entries(ci.scores).map(([k,v])=>{const cls=v>=7?'dg':v>=5?'dy':'dr';const dim=DIMS.find(x=>x.k===k);return`<span class="hdim ${cls}">${dim?.e||''} ${v}</span>`;}).join('');
-    el.innerHTML=`<div class="htop"><span class="hdate">${d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'})}</span><span class="hscore">Avg ${ci.avg}</span></div><div class="hdims">${chips}</div>${ci.notes?`<div style="margin-top:7px;font-size:.76rem;color:var(--tx3);">"${ci.notes.slice(0,100)}${ci.notes.length>100?'…':''}"</div>`:''}`;
-    list.appendChild(el);
-  });
-}
-
-// ── PROFILE ───────────────────────────────────────────
-function renderProf(){
-  document.getElementById('sname').value=S.name||'';
-  document.getElementById('sweight').value=S.weight||'';
-  document.getElementById('sgoalwt').value=S.goalwt||'';
-  document.getElementById('ssober').checked=S.sober||false;
-  document.getElementById('sgoals').value=S.goals||'';
-  const init=(S.name||'?').split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
-  document.getElementById('pavatar').textContent=init||'?';
-  document.getElementById('pname').textContent=S.name||'Your Name';
-  const start=new Date(S.start),day=Math.max(1,Math.floor((Date.now()-start)/86400000)+1);
-  document.getElementById('pdaynum').textContent=Math.min(day,90);
-  const gb=document.getElementById('goalbar');gb.innerHTML='';
-  if(S.weight&&S.goalwt){
-    const curr=parseFloat(S.weight),goal=parseFloat(S.goalwt);
-    const sw=gl('pos_sw',curr);if(!gl('pos_sw',null))sl('pos_sw',curr);
-    const tl=sw-goal,lost=sw-curr,pct=tl>0?Math.min(100,Math.round(lost/tl*100)):0;
-    gb.innerHTML=`<div class="card"><div style="display:flex;justify-content:space-between;font-size:.8rem;margin-bottom:5px;"><span>Weight: ${curr}lb → ${goal}lb</span><span style="font-family:var(--fm);font-size:.7rem;color:var(--green);">${pct}%</span></div><div class="gbar"><div class="gbarfill" style="width:${pct}%"></div></div><div style="font-size:.72rem;color:var(--tx3);margin-top:4px;">${lost>0?lost+' lbs lost · ':''}${tl-lost>0?Math.round(tl-lost)+' to go':'🎯 Goal reached!'}</div></div>`;
-  }
-}
-function saveS(){S.name=document.getElementById('sname').value;S.weight=document.getElementById('sweight').value;S.goalwt=document.getElementById('sgoalwt').value;S.sober=document.getElementById('ssober').checked;S.goals=document.getElementById('sgoals').value;sl('pos_s',S);const i=(S.name||'?').split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();document.getElementById('pavatar').textContent=i||'?';document.getElementById('pname').textContent=S.name||'Your Name';}
-
-// ── PROGRESS ─────────────────────────────────────────
-function renderProg(){
-  const c=document.getElementById('progsec');
-  if(!WLogs.length){c.innerHTML='<div class="card2" style="color:var(--tx2);">No workouts logged yet.</div>';return;}
-  const tw=WLogs.length,tv=WLogs.reduce((a,b)=>a+(b.vol||0),0),tm=WLogs.reduce((a,b)=>a+(b.dur||0),0),pc=Object.keys(PRs).length;
-  let h=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:18px;"><div class="card2" style="text-align:center;"><div style="font-family:var(--fm);font-size:1.4rem;color:var(--green);">${tw}</div><div style="font-size:.7rem;color:var(--tx2);">workouts</div></div><div class="card2" style="text-align:center;"><div style="font-family:var(--fm);font-size:1.4rem;color:var(--gold);">${pc}</div><div style="font-size:.7rem;color:var(--tx2);">personal records</div></div><div class="card2" style="text-align:center;"><div style="font-family:var(--fm);font-size:1.4rem;color:var(--green);">${Math.round(tm/60)}h</div><div style="font-size:.7rem;color:var(--tx2);">training time</div></div><div class="card2" style="text-align:center;"><div style="font-family:var(--fm);font-size:1.4rem;color:var(--green);">${tv>0?(tv/1000).toFixed(0)+'k':'—'}</div><div style="font-size:.7rem;color:var(--tx2);">lbs volume</div></div></div><div class="sh">Personal Records</div>`;
-  const pre=Object.entries(PRs);
-  if(!pre.length)h+='<div class="card2" style="color:var(--tx2);">No PRs yet. Log weights during workouts.</div>';
-  else pre.forEach(([id,pr])=>{const ex=EXs.find(e=>e.id===id);if(!ex)return;const hist=WLogs.flatMap(w=>w.exercises.filter(e=>e.id===id).flatMap(e=>e.sets.filter(s=>s.w>0).map(s=>({date:w.date,w:s.w,r:s.r,vol:s.w*s.r}))));h+=`<div class="liftcard"><div class="lifthdr" onclick="this.nextElementSibling.classList.toggle('open')"><div><div style="font-weight:600;font-size:.88rem;">${ex.e||'💪'} ${ex.n}</div><div style="font-size:.7rem;color:var(--tx2);margin-top:2px;">${hist.length} sets logged</div></div><div style="text-align:right;"><div style="font-family:var(--fm);font-size:.75rem;color:var(--gold);">🏆 ${pr.w}lbs × ${pr.r}</div><div style="font-size:.62rem;color:var(--tx3);">${pr.date}</div></div></div><div class="liftbody">${hist.slice(-5).reverse().map(h2=>`<div class="liftrow"><span style="font-family:var(--fm);font-size:.66rem;color:var(--tx3);min-width:55px;">${new Date(h2.date+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span><span style="font-family:var(--fm);font-size:.78rem;">${h2.w}lbs × ${h2.r}</span></div>`).join('')}</div></div>`;});
-  h+=`<div class="sh">Recent Sessions</div>${[...WLogs].reverse().slice(0,6).map(w=>`<div class="card2" style="display:flex;justify-content:space-between;align-items:center;"><div><div style="font-size:.85rem;font-weight:500;">${w.focus?.charAt(0).toUpperCase()+w.focus?.slice(1)||'Workout'}</div><div style="font-family:var(--fm);font-size:.62rem;color:var(--tx3);">${new Date(w.date+'T12:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'})}</div></div><div style="text-align:right;"><div style="font-family:var(--fm);font-size:.78rem;color:var(--green);">${w.dur||'?'}min</div><div style="font-size:.65rem;color:var(--tx3);">${w.vol?(w.vol.toLocaleString()+' lbs'):'—'}</div></div></div>`).join('')}`;
-  c.innerHTML=h+'<div class="footer">© 2025 Personal Operating System · All rights reserved.</div>';
-}
-
-// ── TOAST ─────────────────────────────────────────────
-let toastTO=null;
-function toast(msg,gold=false){
-  const t=document.getElementById('toast');t.textContent=msg;t.className='toast'+(gold?' gold':'');
-  if(toastTO)clearTimeout(toastTO);toastTO=setTimeout(()=>t.classList.add('hide'),2400);
-}
-
-// ── INIT ─────────────────────────────────────────────
-document.getElementById('topdate').textContent=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}).toUpperCase();
-renderHome();
-</script>
-</body>
-</html>
+- 
+@Ô²'¸£^Ô ‚Ï >§…yRvxV—±›SHÜ.ÏBÐ»0\Ì¼‡iá´Á4ã)0LMçåÒ³Åï Gã«hékˆ8¢j?ã]dv+{ÄLEA‘#¬ÜMÏ<u5ÁM{ q
+ È™à5MÀrÔzŽ…å =?gžîœKá!ûåWôTS¿šÙå˜Ë&ô„99nê5#®Ú¼sWËW‚îæ›Ûš=ÌåÁ%¢”ËãÕc¡z,üe©!FIwZâh­:âslÂ>ôš›øcEññTç6(N$öé~V‰:û@>;¶Ž¾Ú;>Øù:¯å	òG1~·’-«É ¸`òb–`µ¾š÷~½«ü–ó—ËÙ<dl?ÖrÁJz´Ýý5–?»?è~þ>&w×é6b{ŠqÐu#N
+0cúS÷²CdšAxûŽ¡/üì
+d1G[ŸÝ¾mýð¿üëÿöÿ @ONŽwï}:0ŸOF’å£7(]T»å7„ìßÐ*[—m¤ œD>òxàdïÓõ^º(on4	FÖåçíöh2lÿ‹“£§õ±„né²Üên¾ë8Q§_rËoTIzõ.é(DG—ÒQª‹PwQå‘ÁoÔóÎ¯©Õ²Ñ(µõéL/
+oéƒI·ÿ«½‡uëyÈ±‚èÁàu"Hˆ,ÂA–ó{×?a:áõ¨cÅKŒŒ?;û¥œé0ìIJ‹²õæ3‹q˜úóö­õòõ&½¼dO?Î8ªu¢6iÉK/ßþÀmÙš»ji«:jõÝë²®Ëq¢ÛVfÛ ;ËB¸AË²	éLºn°áÈjëµ;vU¾;Wùî(lY«FCÞ†,¤má/À´¿F8ý²Òõ|2PÎk¢Œ­ë¶ÔZñ/zý.SV#ÐlQ¶&Ô&Už=ÌáíoRÕ¬MÜy?ð‰ä©©tî(¼ÚX]«5îÔÍ|±.äè?	•²µ¦vVMvªGÁÄµ Ã6hÀÄÞ6[–Ô¡×tD¨ ?@ôž©ClÈ¹‹³h÷£h¶nßvÆ^=î›nxû²y[Ï -ÚIZÓ²ŸœÚU=-õ·Êë×Â?2W–å[¥ î_Ðžá®»q×AS*or™n]mˆ[·âŸ/¯ÓO¼·lid”ý²i½Ã4XÁXoÞ¥gdµ…³puŸ”ÕY³×©{þííI0hó—_¬íübõý/7kôî²Iÿ|øÌ­šS— HïS“·jÌÞjzúVgÏ_îSñªâ¸!6?ûÄPöÉéÎé't‡c™Oh•é
+·Ç~øç¼s +kÙv•vþ(
+ýšÆ¿Deˆ_¬k;ƒÐå·!^Æ
+c<@|Hh]ýäW:kË.Î¾JÍÂ¸¹5r§ºR¹ùû'G'Œ¡é)$dç–UbWªâjŠfUmüTT)úÒ.xÐ><†ë¡úÃZ<TèÆq6¹–I‡æC½òˆ§G$æMÌ
+‡F•çœ2~BsÇoü3üñFßLœ¸†Ò/œH¬Ìî~h¬MÇ£ÅyùZ};=6¿E¸á^¾ñè¼G„Ôeu@*
+‚ jZ•E--A«ì*ñYa‹(£ªT^Õ•S‚QÝ‚È)“¾û]®5Ý@"JÕµ•L±
+S
+AÏ†Hô÷~eŽÐ½ŠGx6¦>Z¶rO³¸£NŸÜi÷ÒâsòOjû[*)Eè°Kœ­ íªV´[Ù¼f´ïšjç·ÿ¤O¸g“°_{>ÎwŸ¸jIÍÿã?ÅÝ¤wšßwqMˆ=òpÿð‡ït%º‰S#?ÆóÌŠ?~ÿ‡ÿ]×È`œˆ“L"H¦¦rñ“.ÿÃÿhÌÔx²ªF9Ä£4ºÌò7kTöûÒ3bjáê1&8v¬Y¸Vƒ` ÁGd-ë˜¶–[ØHf¥þÝÿ ›8ë¤fnw‚&©¾
+ûOÖ8üVÕì\Hö]®7p{…õþÍ¿‰v{´Û3Ô3'ž@1¤RíÁdÐsÏY'DÙE…]gG›´¡N
+AÏ.]ÒBß“u{â­Ó~0	¥®8
+üŽ ¨½}ìÚä³Z0¶ùXêÃoøBŽ!øÿéÿÔµ†²Â‡6ÈY»è&\ÔBj»žjòƒ±«v˜rŽ*®ü·´c|õâ€˜±¦_?Káë1ðõçµ»»Q`HÓÏ*U¾2*¡Rà}ð¶§lôò_¦'ðb¿ ¸ÎÂUd
+hAÏ&Aë[w«û¶ÄÛï®
+SCT^ÐL_Ô‡( ·AÔ=  ƒ'üi°j[è¶ì'Ö‹|E‡×,@Ç":=R¯ª ºš³A?÷GQªèÉîÑñH•—6‘ÙU[FA?ûÝŽY¬½¯Úqe¼ö ¿*À'ýÒ1Ÿl5i‡û {'§GO¥Ÿ"Åäý†**yOãtBÉÂÉ‡?ïÂ?Áˆ.¢%üt(BtÿééÎ—Ÿ›`/£ÓU2§fåóôZ•
+6Sò¬RÚ*Ám6ô¶¿
+ŸÀ¬
+Gsüà%œÃ“HÖÜˆm€Ün©ãur‘Z\±¸#îñÛ‰\Ÿp,?ØÐ^ü3»BU*¶D~Ézm<÷ºÕ‘Vmfý¿µÎuý<ð‡%n¿\:ã’†¥t
+åÎ$oÍæ»rýß•hŸ£!ðtæÐnP†&Ø¹‰ª¡MwP'jXŠe ê"›[];Æ6 æÖsës‘‚ê¼ xc–6—è~rZ{7ÉQÅÀWí€'VM«°¸\_€›Û‚Â˜–¾df¶Å€æ›êº}Ÿ¹†EQ#ÔÊI]-þlò
+¤;;T@ÏÔè/±$ýÔ’H½x)å‡¼žrñúL31 :¿Ñµ¬v[®0;é—ïfü•W1ÿ:¿Ù¸X áÿ€$…Ò5«<¿¦*”«¹ C”H×Ñ¼çüzºTº®æàlU*]Ìóüz(‘™S	B5J¹Lºž	`y\j«·b
+
+$¸b.>S<þ­ ¡™eÒ@	£?¿ž”ÉLzÍiþ¬ëbéÚZö1¿².•®Käã‚ƒ‰`4™,IÉL%½–ð\™©Œ%/™òœ@¶¨B,™W\,»-$£øÜºªPaMˆq–ªÍéÆÓM|ãŸÍ¯JÌ¡!œ;)›oÒÄ&äòr[e‰S|Á‡A¡ÐýDü6Œ­åjÔqžÅQ©Tþäd¶Ow¾Ú¼ƒŸØ1¥»ZMÎ! ëc¹¼Ïý`Ïéô²n\~36¬+E%›8¦ò¦hæµ9gEFå7ÑüFA{óŽÁ¸fWh`ºp4÷ÌDIaGã^™ZÏp÷ªDtV¦&g•˜ÙÒ_à€t08õ°ºU¯‹Xºâ‘;(IØÕ@•AÔñt‰Ä¤[ssºHlK­JÀ8[FLê­[·bCñl¦q|½øuš|º ÚcEÌRx¦*òŸ%Íá¶›¢Sj'­Vè®KÌP£„÷ÅÚ
+úS©”
+E™P6súŽÕW»ûaýœð}²;1×Ò©Ã¶‹f¥ÒÄðÂJe“Ú
+Ýˆáébµ²ZÞîCÖ,f•Âôtw£+5XUÀ~Ê2ðŠPÙBÎ;=y¦cˆÇ'J•RÑD4^¾H^NÕK6º„G×
+y/°z¿«Q*	E††Ø¥à!«.*ÆU‰O¡õ¨ðý¬•Â£’ÜÙ`¢
+©×3>j…N%¦XÕëP¿ã®öcÝF%!6¹SÑ©áð«£DcT1èo|:Ñê”JLZãõ#VÁT„œärJTÑÔ"^îj•P%¦¹2Qt'JaS1)?iYtGMááå3¥œ©hò5Ñ-UòŸÆš¦JBz1˜J+³³CŸJŠ}Ù¶¿Þ;±[öS?ËI ÉÞÒštìrÙþµµ„;
+êb[Nö  ¶½ôüI'¹ë¶Áò i?{X*vËr.{–]éÔéoÅ¾
+™ô~•RGmÑ¿÷ö­½m—ÕždwU ?ïrþBv'Ÿùç“ ÔŸûA]²lÈgŽAzë–úQWI5¶3Ï1¸×(·l¾^”PÂz«¥ŸÌ¥N€>9:Üc{ENY'ÚïûÓÛäøˆC;–Å ›Y[Ÿå˜ˆì”tâí[ësÍ Óo£Q½Ë±™Ó}iZ—¯f¤ó”@ØNÆÇzÁ÷Ž5FØ5˜éÀ	.„lÁ¥ã,9|¾Â8OSgàá>Ú.
+]UÉ*±2[gf±Vœ•rÝ:$ŠÛò"+»ïÜëÀ¶9¢Ë@ÉmêÖiß…O>Á„;“Ý%,€{EÈžÏ•g ;O[+Á ‘æºÖÙµµ†
+>ˆ¬³	a£(ñ»	­ÒÿÝÿF32<ó e4:SÎìßø4›®dŸŠ!‚áŒ±pÎíSd	ƒÐ~ì#SÓd‡Õ\m §BWa^ü”½ËóÑ²’k°®P¿eà~øÑô(Q|2n?©’újÜuãâ°27G=Fµø”`ZDêÙ!\‹¬›Ú½×ŽéLÉ¥¾dìÑbt+Å˜ŠÐÙvU5A“ZjsÇ/Ó^³ˆËhL”!ç ¼Šê!t€%›×;UïÅ¶f«š”Äs,J%ùÚ|mmÇ?UA‹¦&Y¶Î<›9q=ÈD¦º¸Ž’©ê™£^ˆU
+•©Ó: ´~rzx€M“²!—B5ð©à‹JYÆQÔ4æêÂ˜É•-»â†’î¿b›áel
+d3ÁÜ›¡ÉÇ¯•#„„†O#oÞ‡²éÚãOØÞvG®h†‡¸)v
+(Ý~5ºÝ«Úp3²óã07ê†A&mÜB·œáxÓ6Zþ‚ß¢ÔË-~ÙÃË4µo2:ñöíC´œ0´38¯º!‡¹æÍÕmû1²ä
+%5vÝnÑË»ê¥s¹rDÐky£Òf
+®™¹ïzëF|¬ÙÌLKB´„ù .Ú¶c´¤‘
+t‚oØLHè+„‘“1P—ôª\åô¢mBãQŸÈ¨«R³Ê?Ï ¾”J(K¤Ê”˜	)ûÞõþ¯\iÎg2%RvéˆHä³¸ß0 Q¨Y®¹-K¡¢ÆéË5	Õ$¦ª±mÃ“B2ßpÐMqbÛóÐ¼RÙ/înÓ¿³G§~o5·íçœµUuëK¢
+é”Ý€*k¤Nˆ}ýI½«ÇÙÎ¦}É†ëžf?¹“èHE/¢õŒ½Í‘Vè×l®1&s³â²›ææ¦$½nËŸ¤©–¾â	±G#W%ß¾Õ_¶ézKmÄànšô¿›ÜEwcÒ6pD¿çÁ£šÛPsñÐj¢ès*g û7ßUåÛI/Ä‰?ò®Ün©™HgØV´h‡Î†¹s QC[mnˆ
+1K/ýÞ¦o¿lâüØ¿ ™Á¼Í—Õ ¨W4	s},%%€„V|ÛÖbÔ®J7
+â<rÆØÖp_çK‚À9u Z_«mh·HÓ±¯Bn	ÍÔ
+çC<½ˆf€Ì¶% §1ÐÓÐ:6äÀïõ4ä6ìZâh_š6“˜
+‹ŠÒÂ£m6Õ±$nv~€¸u& É¿åº‰X•:œ²0/“õ®5_ëŽï·náßºãÚ>Ù´çRŽ‡›Ê˜`·u#1ã¸F;*{§ZÀEõ:aTÏ
+2»ÞpUnA…‚K·kZïhZPYðÈ(¸T9EòÉ+`YJÉ¥të–"oÝú<Åö|úâöÝ'{»_Öö?Ea{"®MËÛó¨GeWÌ™”,õ >L.•XÓvGµç'võÊÔ² >¬o‡T¿¯ø=Ýánàuìwh‡ƒšï:¡’©Š©T^*a
+UÇã¹ÂwHß/”µÿçã±Én[T7MÛò:+Ëm7)Y®êØìW‚
+ª®q®.q¬”B2Ô¶=öÆ6^™‡ØÛT
+&ƒ»tå7TL;{ÆÊoBwðÌÃuŒÊl¾£c[.yeÝ
+Æ¡ùCV:BŽ¥±úÀŽ	
+¨)Î*\ ,‹YM1j%Ê³ymq–_sä’Ïwa=DŽ¸iµNÖT¦m/® qÞ
+Ê³|¯ÖÂeëL#hŸ34A{ñEÏ€Í­úÒž6a¸ŠÖðÏ:þÙ°_çO‰×-¿Yp»@ÓoúA™n‡xh
+v‹‘h=
+&Ò®ÛóOnrpG³/½Q$§–`•G©IW÷ÔåìÊáe\9¼,‡—Å3)ƒ|™Ø^ÆÉ<éwm.•d¶À.S7
+æüB¦ü=†–hÝ Ø›CèœÆ¶,
+—ùßâÌFÔ¨ä"¬ÿy'l¿!¤¡éxµc×¤DŽãÁvIå—¯Û—
+ô¨&ø–¸™:Ð]‘š¶ê©=P€i@QÔõ8£Ñ¼ü¢½Fœ„o·è×m{ØµaÛ-\E2wËì
+K6†•Ù—Ùyà<ã™YÀœ]¾/þ«”.¡ËÄgâÚñG³EïUcô•Ú¢¥)st%w^à¬Â>µíÆOŠJ¸J›½¡
+|'*iäR~û¶ñþØ…ß,m2…m÷ÀÒsÐS6‹Èl@¯›q Û`šT–eäýIŠíxbùH†í—1¥ÿyï2u;•U‘úxöKö¡H‰´-¨‡ð‡ßN¼@›²¦šû*Ó‚¸%sN‘ßÏmÄ¸Ä2
+±8
+ú¬ñŒ&ŽÎ¾¡Ž»a)A oß¾!šM8ë
+ën¦UeÇÂaÑ±ðYwá!éö|¶Ö+1wÕw-ñ§
+Ëö{à@£ê[‹ÞH
+©ý£Š(¥1µÌTaNe2V‡bÐgÑ¼ÏiÚ^ú&Ÿ³Ûf-¿J]S_'Q®=„ùu×¿V¡§ƒX"ÅŒî}µ3[Nx÷´Ó[I¾h½e;¿Eô:ði<úuÛÀ%zÆ§¬4ÐRžö4Ú4í»NÊÊ<—ã(û×V»ˆÏ•¹â¾œË^%Õ"nWJü´@®#2£ž)Õi5tã¬kmËÅ#ª[ñ=ø*/Ç®$êµ"
+è=î~ý–é€rÕB nBÈ‚²¸ Çt„þœT“(
+ýD½QÂ
+ý6Ø(­iÏý9öô šŠ>ÑŸ4¹RþŒ=Úé_Uèx¢±YpÓ !}!¯×þ98½¹`ùWRÌ¨µSŠ‹÷
+bx|¶
+°(	GËH‘i„±7ÃÄÄ	`VÇWV#fM ŒAÙ–GW‘×1CÈÜÛèh;Åg™U”gþ¤UµT½«"ªðèVÉ9ƒT¬¹¡4´a9Ö—$ãv¬/’ExÞ(ôºònvh^~A-@¼²Ã…Ùî©ÁÀóÇÙ‰ïë–†I",ÀÎ"V­.BŒ/€ð¶XýÕèÕèùÉÞ±ÎEÑz5²+bŸT±ññxéÇ­'ûˆ7ó5ŒÏ±¬Îá|,Ç{OöžžìµW-šVžŒžç×:ÖéÉ•fyg÷ôùÎÜes]ÒÒÊi]sÝ:ôFÞp2´ÖZ¡Ìƒ	¹¹Pi½±pLLèx(óã÷ßý+ëôèáÎ×¯ìÅDá-;‘"~ÚþÓý§-hOñú¿·’¤ìúåŸþÁ:¤‰!x‘˜dïð_wðé¯ÿ³õø9MÙÞÎÁé¼ø›¶QI–dáÅ¿ýurôàxïôk®¾{¼óõH@ •Ð‹ý§Ö££cÐØj˜—¤Õl+¾/eŒs£ë
+Øáåšâ)>o·¡?§úÝíÔÑlsë]È1o7vÖWG @d”Ã°×¶îœî¡‹³°«^ìí?~rŠö•Öž^íÐþã7¸Yaôjtr°·÷Ìzrôüø_ô5
+Ã ®qºw,5ønMQ´þ¯©º8J3n ž_ ±óÕÂ+áƒ6e¢:jÑRÓKœÂ¶ù0‡*¿
+.êéÑ©u¸_¹ý§{ír+±0Àü‹ä=gf ŽUÞ;¡½{Âw*z«&ôÛ·¨Ôçò(.é#RrËf‹âÆM
+áÒÍ‘ýfü"[Öq€Q0ÆbÙ²'‘QŒ.çl©Ò(¥.ëlÉ]}i'%õ½-z¤îð¤¤ºÆ³	@(%†œKƒ“³§‘VréÊlçm>ÔI(l„4l¿Á•ß‚¶¥*Ø­•œ@DÄhÛ§Êðµøß*m½ýW¥ÎZôßÛ·ìøšè§QU[ÍµøGUƒ–þQU  ¥þ¾‹AóÚZ³µO˜ájõsõ®·Õn”Yûâz¯Û<ÄMQH AfLøeÊ÷ á(è3¿3¼“Ûé°K:ê’šÇwUõÕÑ9w’"<¶ýî5/	heÑõ|6×·ò§§t8©„Ã(&s’TA~÷ZÛj vm”qWÑŸv8‹`×›I¢.‡ÜEô+eNŽ°.„_L‡MPÔ`uKñ°üIH2Îí0r#áÒ­€@@$ YÓ8°ôD®z5óÈ=ù¶ËMÜº9•YnPì
+óìàcêòðZVpWŸ{Dž›Rî“»z¢Éûáï¿ûmGwvvŸQ²súé€ÍanN¾>ùP¢;¦«ÓäöM©ì‡)êZÓ¦UëbäOi£õ\ì7˜)ÆíMˆJî^zzñ¦šNxA{'Àúv"± èBëáBâ'‹õéDMûâÜê¦šˆâ+“ë¹WnÐAÄ“*Ä«œ hœ® ü´¶¬3ïÜ›¶mMŠ†±M$•‚	†ÃzdºªÖæ0Ö7“nO¬[{#6¹
+®«O¶a…©ml%:¢#Ç±â­Éh Ç×ñ$p	[º°¶åE	'c˜oÛ¬P5oH3
+½ÑxŽ@¨µO"Ã’HXz•vÚÆÅö9,6
+Íe\š~Á”x`(M	1«»tS•}P.±ÄÊåzL«ÒÖ%ìS¤;“,¹v•P·*`7‰Ý-”HŠ/³L¶,Ã”Yš'KŒR‰Ë+ N8B¢qùjÛ ¢€¹®ÀcŠÁ;°Íu¼ØÐ‘[f?r)j¢Oþ¶™jŸiÂ
+~8ÿrç¶Þ)“	¹‹º´ó×ÌnÁ5’º;`¥¡š’åäÛ«m'×—-ÝÎÝSÈ<gºuµïãÿÒbq½ð€˜cZ‚lCìZ¬ÔÖ†$Æ:Ø4’3QáÈxKÂkª®ÝÁçµÙÃL„ø<âeNôK{ˆ'~À¹½Ü ^¤øR5Tï\<{Èò/cÃ1ùÄÀ‰‡TU¾ÆW¢êût.6TÉvN­Ò¡
+z¦üé€_€¥“„€ËaêL’Ä›âë4¶Nª†Ëô(Û<–s,8›Tl¢qGžÒñkÛE¹³ù
+µ`óÞøÊâÌÛéˆÙ¤ÚœçAR¡…îà\²¸ÓÄrªJIIv¿ñ
+{àž«d¶ h¢ß&OF
+L¥Àâ;
+G|Ö[{¿1æ~gR’nÈœ4ê7oÓ‚Á9eõ2‡¢
+$·ŽvîÁM1ðÎ]EO"/(GCF«riž7Uñ›(rêQ¥H•³=ƒX¾©ä´Š®Ì8ÔìŸkŠÏW®=âë„,;E™?¥ŒÇ>Fbe­Æ Üy†uN8¡/–¢!2Ä4q¯\Î
+N­ÿQég9a6uà, Š·Õ'ÆýîÑmiö§uÞ0vL7b]ÍSÇTéFâ ³uE`Í´ª(¾qà]ÌšÞáX…¥ÙŒƒIé÷=váQîÎu¨ßKÜ‘ÄO’BýM «Å¿ü~ûÖF6~ˆ»çÐ'º?HåËLu¨<ñˆØóô71©'e]SG“AUù_âÝLm|3a›ˆ¸²¨}U]~ª±‡3uÅ:3 >ÇÄ­rl
+ƒ‡zˆmà­£§ _
+É	¡¼.G_·|Vt33?ò‰+.¥´Š Z¿ÀaG¸ªÅ ÎT*¥=+ß°ÆèÍJ8Rýë•ÖÊjm-ñá„ˆ&é+ÕÖ_í:¶¨Xi­•Y]N|¥õfE…\i5ïÑûŽœÑëæú}îD+­»ïð+DÏ/XÒK]Iè-N²DÐ$ŒO ¢µòèùÁ:žÇ{Ï¬; _ž>9>zþøIëÕ«QÄ;ƒ¥æQˆž+òˆîÑ÷Uõ=šúô´V·žøSÜJ‚À+Ï{†‡uM€¾|ƒÔñ¡·zÏ&>»È¹¨‡Ê	QRúÁTµ
+ëÙ!•æ\iTÇÜ
+6×Zy@³vne¬ôyïW;»§ÖÎáÑó§§'-ëŽÿk^°Nßë\¸#¨@kXb©7;úV®ZM«3[]BÛ8?²º€ªÖ*Þ†Ö9¾E×æˆ.q”ÎÂ±Ú—È%Ë@Tâ{ƒ,˜^Ø;j²š«ñb®ßSkÙ¤Ø°ãx¥ˆß¶‡¥áyo¶¾•È‰ˆ¦~½Ñxd•š
+¸z”u¹Õ¼üâQb$¼œc a£#J·™.»Ö²Nh@|øT2®PJ7o¯Z-$ê…z{ŸÎˆ>;v¡ý¯ÆezN@×4–»òZ
+S‡wáè¾Ö[xbû#± Ã
+û.]“ ÊºÒë9Í›.¿Ñ²À3yuµ¶š8³LF‘7PW,´×îpÌyC«ygãÚb† fúC—Šéöî´pò#+iëÌ=‡uSgE²Å_ç&ûž4ñôß¥êäN²AÌÍA”©•cPmÖ‹ð±#[O¥ní
+.`Ð§©÷¥ÁNäb„—ªjè
+‡ôsm£¶ÞÐ€ëFî·¬GƒÉù¹ž»à¢jÁ×šØ`ggKZñd¸¯ O
+ôæM¶U£e=áM¥7.ˆ:ˆîy.‰¸Öút@hÜÒP\‘6$Òˆ©Zš›n*Ù¡5•W ‰0¡^Â]O„,ìÔDn7®‘ìO"fP(iwHï¾™Ðô+wê1®XçáŠ)!}	%/
+}8vÏ¯'&°ÖðKÀr£cA4K[‹}…Ö•#ß£ÀulôŠÕV¥h P6‡õœZ,•Gx{ê\&µî7´‡,©Þç]g86$]JÔv‹w’B*¼{ÛN·y'×!d5÷gØØ‚œÎÚ‹V/©¸W´g
+…Ã[Ä»gËúÒ
+.ci×£ŽOˆðÉÞÂºÄ;ƒ8ÝæÈ¯•ìy~äuÂ
+g´¨Gpè@¸ã ÂqpgtM×­#½µhÐE{ãIG½=vp6Jð”e,
+ÜrÝÚùêhÿaKî“wÏ©ÜØÜsèc{ÒŸÁD²‚Ò¯Îå¥Kd§ÑÆ®¦¿<ï^¿{]]!³ã×á¢}&¨WÑÊ*2fo	ñ$	@4DcŽ¬Æäˆešñ&5ˆLw–Ûë…ÜP .i¹\´1¦æ'„†ï¢<õoÝ_ûl.‰eNØ¢"îõ
+AN S¤g5I7 ]m.m„2½8»Ž$+$h§Nˆ
+:¥º«{!,Ö!fÄ³Îé¢r£ßS›„™iaŠ;ÎÙ -³#²Ð?ßeÅ6<ˆÑ¡
+Éï5i%˜+¨eÂäìÞÜÈŒ­bîjà€¨µ’%Ãe†&N¦ÎØÃ‡ç»(	ª·3FèÃŽ‡Ð—„ Wq• „04°¼Õ óú¸P0ä‡„9xÄt—Ä	…{“@öÈ#LVãèqõ2Úós	&!ÕÆPwþ.
+5:tÒÝBUÐ{˜ïN¼/`êúdÁsð6=q©¡‡'µF“ÖØ—]§œ/'¬9h¬•ªÞâêšæ’GD4ÁÒéi¬*zìºˆƒAôZ@ãïcËIðºrV^®ì"ÐSÍq4VËGÌ;ê;|ð¶göX²þa;É\È5‰›‰°;ÁùHM—šU91H^Ú 2ã«ˆ§ú],?\±ñ|ÐÞ		mø×gtvª@„þÀÉb48ÀE Ôžƒýªßqº>—@›Ô$Ñt]ð®öƒr‘Æcfúl€Õb°ÂtAi=ˆôÁUƒèv=4Pn²gN H­¡ÏÚF:ë=Ë?—¦°CG×l@"¥xàçÁ¤ùÐiûŸpÐm”Ì,gxu7ˆ‘P¾'Ûåµ\…î)’%b	# ®6S±1›2Â ’(™³ÀEŒ=ðqÌ¤n=˜DÔ-¬œ'7¸ë##qEþ$]¡ zŽ•«-+êX¬4Ò
+·é85#ˆ„á,òsPdT¡ž¯ùT2V…ì‰ˆR"ç’¸)^e&º4_YpÂÕóÄ—.ÿ ¼ZÇÔDjVhvÒ
+EnF›4¤(@ìþE8Ò¥ã‘0 ±Û®æ†×	/ßz5Ús‹N
+‚1‰öj‰6žÁ¿ãÓ˜¢Ä(Kb¦Q9¹´ Ï¶e*ÀØ«‘
+0&Œ:VŸ]	•öŠå!Ö‚åq*nuäÑ ×Âg'FLl¼4rÅréEq<KŠƒƒž$(›„QaÙ¨Aã(31·Þ6pZRý'ØÍ0SAqÝÑ7þµÛU’˜iTm‡íýœ‘TŠcŸIIý,5<e˜ÅtÇµ³ëë…
+ó¼0oiQF£`U}ÔŒ'‚)·ÂŸDHJ4Ú—UVts,TE™
+])\ð
+Î·¨ã™ø×Q®#‚È'n€p³t”À¡¨‹ÐÕÐ0%#Žv)Ù’Ö+Ê÷ð:m´"ñÞˆmNâßT(ZY<Ÿ¬:¨MÝ$Þññ4`p‘7#ÃÐkõ*	?” jY¹Mõ]ËúÚ(”xA ó ºÙL‡ª”wŸ¥Ó…éáïaÌÚ7>±H>-pAü¥Tó=»Wj!rkdý~ÛKxùrmôRó'‘hQ‹}hÔFêvæˆ>©-n*-eô/ÓöbœHÛu)ÝM*Ýk’Ue”m®sJYÂ¿¬¨æ–Mùzg5—P¶¼IGîi!òŸz­z3—Æö÷	ñ5ç×ýjï…aðU†Ò8qŽÙ´†éÎÌœ³ª»{2Ä8ªR]‰!×L›í%]'‰i¯ùÓ•´¥Ýpì
+©&SÂ¸a1ÀËÕ´Æ4z!Qkr
+"¼uËx¨+aÖÛ·P‹÷f·×Aräà,œßKÃ¶u¾²õÈ‰æ·tîD‹ÚÁìH)ñ«Tª¼M[9e¢c;®ËTËù
+a¤f•$­N:4!ñt2èÈïõî±Ûa£ƒòÊÖWˆæÂ¦‚,ù|’‹»‹C›Û íùW©Oà[2F—Þ]És×ˆ5Öö/ùFÑSvM3õòuo0¢ít=3¸ÃM­Q€K!&AÜÃ~íÖYP,ý¦¼†IP n4uHÀûÐÜ¨"Væ«:ëXluy–3BZ°´-þ†ª~[n™gtV,ÄŽ;ÀSúlÏª§“Pëš†”{¹bAxÜ„~³\ýè…ÚëäÎ\´bË”šhÃRsÑ‡ê+A?ÌE\'AýLèdÔTPH½mûŽê17±Ä	Õ½Í:›T@Ñ†ÛüŠÿ“Pc[*Ít‹†"/â=©ªÈ–ä>@RªTác~WPY
+Çu	aºþ&B%2n¾‘¤Vú\ðƒ±ÅÇåd¤ZÔÉø¼éÐð!ÍìDö(5šß¼9c“­ªša
+¯ÐV¿˜›&d0IU(ïÄ;ÄFA¶Sé•íÝÑ+»,Æô[-›Hƒ¡ÿè›ˆ«°ëUšåÂÀª6e>Ù™P.·txù¥`¹¨#‡Y=Sç4¹7äà-KŽÝÍÛã¬Áœÿ‡ßý?3øÚ›aØ¯¤·]Rf‡lž§B;Vçi	ÏT(—j*l®oúÊ¥'ŠØˆŸ—u)ÕH†`ë»°ÂgØµPUc¢Lƒ©ë-Š7fº)0z
+3oýøýoÿQÃÈ íÔLeÎ˜Ž†Ñ3ÃS7$áˆ	€BfÄ |.¸ëi,ËÙ®ÐŸÌâqÃ/éýëÔ†X~3·q5
+lÖgqf±Zl% ¡gJ&‰.˜§$I¼ì±ÜS-{ü/ûÂÁÏqeÙAkˆ®º©½ôrã½ðÃþ®¦Ëî†x Q²µ#sW/^ÛDvœÛÓÑ{mçþþ»%áOeŠˆ¯fº²S	êÚgäñð&¾å‘1ãâÄŠÇ”ƒ¤Ë+Åa¨klÛOˆâ¦ë.KØŸœ×‹£ã/žBÎ;fô£Sº ª´Ïæe‹é^wž¥?ã¼£x.[´_ …©i®Êo®æd‘IEfLÒ·HæÓ:£¥hó]
+È‡ ²;Èî$@  
+5ÛîfÀypÎç‚“LÔO4OÜ~û<Ù »œ?QîŒPU	8Â\r¹B@fG§RÀ‰£sû’ û¬d¸h9ël*ÃE®laF%lnJLB„$Lxåñ"VyœLq8ÂL0ÂY±÷Jc‰ÐD¨bxÝM§câå*˜‘»›ï¸VP»ðÝgÔl9ïiÕsG*,ì²Ö•f[©¼¼McJŽC»»ß¾IÞØ’ê©ú·n©uñ¾Î>«YJ…H(,ÑJÍjb)ÝiKÀ]e½‘~d#ïVhÛV¦r”*,>eô£~ÒÉ¯Ø°Ž¹ô \Žþ²ÒÆ¸V7-X"cK_,¨;Î Ó6éÂgÇÙÄ¬q”±«öÞ¯²óêÆ ºuÎ	åu1§²ñ©­—^÷õ¦.qµí^ÕG<šq}*ê¦+üZjÚ ˜Ñßg9¾™„É/!¡Æñ1Ã±Þ!–ï£PÃ$´Èºóyèiç¹=Sóf`>à
+]ãµ^
+3¦í+
+âçÂNJ«õ|5RVíì—çvð†Ç@ü':}—Nu”ÑwÁÖ¶°J]ç'œ{æR“3ý©È´ºAút4r“àÚ¨•>Çî¡lÏéu©¨×MÌ8÷ÔgmÊ	Ò•Öì§ ~]¹Wk6èõ4RÝ<pB(ôGQÂß;‘õ+¶Î’eâuéé»WZ÷¬Ê¥ª'ZoF8Êhw&?ð+™Œ‹KÁ´ÃÔ\­57L ì»AÜç¸O±Áïw¯ßq€›	’¼Õ,Yc«Q[o!-
+»Îý®èÔDUÓ¥Î`Òu­$µ»Qõn
+fzëµ
+U»ï:—×¬Ldã Ü³¬C‹TDˆÄaWâŠÄ{ï‹öjcÛ^³[æ«õm›z C·Q»+{¥f=à9kÅ™^Ö’6Yý¸Ú¨1FqZ£ xÐgÎ@¢˜F)a}¸Ù¾bñî­YˆÃóìØ"tç@EëDCÊ³§}Z•˜‰¬aÛUAÉÝS:Ç›kŠQ)§l,««’Iâbç	6&~—3jÅ7³J-w@ÐÜáµ¥ã°‹æÖdœRMÇ^¤Ãö›Þõ°õÒ>s‚3—ƒ¨v'Ã3õsÈ‡)¦“Ýj¿®ê!Õ3J§ÊÀÍ&ï¨€3êÒ§ä]ºÀë8²ÈùpµýÁSZ®d3d*K<(ít.ÝµïOˆÉ_è`RÓÈJ„’·‡·½lOé î`úÝ¤ç£%þˆ;ÓE£.5¾xò×ZÉ¾4ö;„©1 ŽF×½::/¹u÷ÛòV»aç½6
+í¥‰î_³#ây¯Ì]ãŸÙ}S}£õ^¦ñ1¬fºÒDè ‘I¿ªú’æ€VÁ§-\«oàŠÕWêº‘šý
+ß-Îz§ï;Q©‘‰
+—º»TcóóÄU!éõeÓÊÜ‰iÄÁQkÒäÑVûî¶­£Ša[:NB±ÖS@¨<dQ Ôå‚“%ÞjC±Ù’*u»š L™·4‰Où¯Û!SÅýA¿FU æ<œëtÁá.iÙt½­ÚU¹HZ¶¤šê A€<`—.ß  ,ñÎåâ¢Á…>!v—
+î·iY¶@«Õsa-&±
+êÎ|àxÜN qr¼NÝm_•›O(N8P¾ÙàVÕHøRL†r Wbœ*ža½£`ý—|+¦o	†é]&\¯ÆtS°—ÓÍÕ§Q{:?Þìåû[AP]É1ÏüanÏ¢¬Ÿ¾‰:f–æ= ¾àc“‰òH”>ÞÒeyŠ]€/–I«1½ s˜k
++ûöí´®Ï¨¸Yñ9ÝEeÜhÁ>LzˆJ–W›´fng÷ñÜ¦U‰
+‡
+U*›ïàPßP¸Éö®ÂÒ´?
+g2PºÔ&_S*?ßlXÞoÇ,·è³¶ÌRûí¿ÊŽÑìs–^XªÎMé‰ït…jLÖéóä8¿}k<Ô1•“È(Æ·x+´sÞã|Ø€ˆ›%nŠKÑ…T:AžÂ²ÙŠ€ÐWf^'Ävúâ/An¹M«[t¯ II$Ð;Í‘]i½þæSÒX^æå^U½î•)U
+˜»&~¶wWûË0è\…0µV
+)c<¢	ªP&%«ºÂ"ê	4IÑE<Y !Ï¥0uh»Î}%}Éëbu«{•Ñ´²è~ïªÄõ+…ŠT÷j4®líýÊ8*LŒ=ã}ehtŠÔ¨TWé_i~÷ëÀ†?~ÿÛâ<a¢©€¸‚Š*aiö$sÞR<C0óÿþ>©‡;
+Å&ôN®ÖŒNºÍNÿ"5¡]`Q¼¯X4+ˆ#¦æƒ!‹"¦˜©¡/j]T®æ»qpæt{.§êæŠ©îè{·—êå~üþ7IÜšˆ(´$‡GOHšVâ_"»*§ÁBçh9$ÍšÑ\Â<Eë×|ØôE×-¢^så8öÜŸå ª?ï=;™ýUÂ†&ß·Ró&ÿ¦
+Gœn—*§mGè‡ÇþÔØ¥v £×3ìFÂˆØ¯ŒÞ
+Ð0}‡\)Ð:²lÝÆ?9›–0“^h¬t§A0Ýi„	4Ë×½º÷ß¯ns•W‡°/Ðµ³[3ooyw½0ÄGÚ¾òþø*ôƒ¶‡¡1§ÓF„*èBªÚØŽéá@Ÿ˜kM$gî‹v©5·í§ˆR
+ÃpIï<b^àiFÛAâþ¡ëÔt(Í9_¦¸¸RI0´’yîÃ/J
+å¼}»VÞ+•r¼	Ÿ¶jHìŽ¡öžŒ»/.ž~¯TÎÅ›ÒÕ\¯z¨¦¯±9–Á|r]OÅÔé×|FiR|©´|Úå’žu/è‹tŽ#xµvb ”¢çe/ ¹
+V,–çô}È
+Ú+ŒèoÝRØy[ýÕù9kœŸ³e7ìŒy¤úV¡®mÞ}l&BL£“Ý’|­Ê×òŠÅAÈÀgaåæ`2]a„öÊj}C ™FïI×íxCØKf6»ÆeŒÏ
+Ú¯aÚ%Ù¶~øý_Åû˜×/mµð^Ëo5ÚiJ·ÄãrðCjwŠ4„jó”ãS¸™ÞÑ\µZDò!mÙÔIòò!ˆOÀÔÌ•2/©”1qe#£J|–i&½Ó
+šq¯Ú³²i%êEê!¸³'9¸f··nøg|ëViúË`k\Ÿþr\ˆmÄÏ2±znV8FCÖöÍîNXVêç¬üæ,ÛåÍ³4ÿã÷ûGëÙÑéÞÓÓ}q!îœFX†I¨z°ù.Žì“Tk­Vsgªí^û´hi
+ÍU¢¦On,áÈ&2E¦-LU–E°œ7•á¯ÕÏñ§œ>ã5Q›¿ÿ+äH¥ûLm.Î[§L4ì³cLhP¦ç:ùBx·:Áôv·d/ñ íiôK´¤A û¾4x Ó[üÅ#m‘·o©´ÞÉeÚÃIcí7SDÅZT¨ô_•ão/­^…§ÁnæâÓ¿ÛÔ~G´ñªP®nv‡AG„©£
+À0l¾KM—QRŠUƒò\÷¡q öåÙ\!TYó"æy©Ž~cm°?ï #:ÁÀ¹Ö‘ˆæ ðqƒ.Ú}¿à$öaW/,7¹
+»C Ô™ `’8á
+«éŽTÍâ
+~Þ‚ÁzÇ‰[éÏê=%ÏR2æ}žÒÖxvü9ttiç1Šð­Ì²Ï5qºÈùØ:‡vÕcEû›/+ZUK
+x‘úsdš•J®Ó§ûÙéP¨‚>¤Å.8ùsƒžj¾¿<£E `n3ã®N1^|Q„´ñâ›x~Q´¼9.£‚¯í"f|¥7gnß¹ôˆÃ°Ã¡ïG}»ÊBBz÷b¿]n‘77Ü)qãõ¥ÀÈÐïñrïõrG~d Ò[·Šæq{Îä¶š©ûcñÞ­Ëjªê
+x„Bzñ|q@Ê¶‘‰-Ý¦Ä9¸´&‚‹rîrªØ·í
+µ“š«„+
+ËJz	ÖõôHäÌ1¨w›ÊNgØõ|Ðd›vV\øE»íÈxùvôÏôIÏÿÜa’²~Ù|'m·
+4Dm*q9µU«m¾SÜZ)‘H+:'¬ØaÍœ3sëw
+e÷ìjEW¾9Ï,ª¿}§¡>G—í³äÒU‰ò
+7H‘LÒõ‘$8R4 ž¤3¤Æ|iiª¬½¾>¦›ú”˜nª;Çù CŒÍ#¾T‹ØHD3½Áìé°–-"œZÓj·Õ]%]VÚDˆo¾£I­T”‡H\UŠ½«D³§ˆ
+ÖîáÓ^Ï¤Z’eÜhËTÏ².5¥®v'A
+{‰‰$c?E—eC½:pß¥ÒxL v•û\¨½ùi0Ë(¨r^[ösäWG¦ o€—µ	€
+žã+£:mÅø1ˆÔ…É?i‚¡’Ñ(ùšî‰7ñO
+ÜœÁ'ÃQØjž –úo³ç(7ZLxC· ÚvƒMSÆ¿¤R³¾VàÎ®E´]S‚ç¼¸ñÎF¡¸qeKE2ËJ,?d´E
+7 />q?€t¬·Ûécï0µ»Ê-ÎÛ\~ß1€‰ÞÍKÞÀ8Ð9'çºbßÜG
+4{™åÅDÊÃ.ˆÃ1eŸê~«¹m‡J‰!Æ'†äÂƒ3æåÉ¹A»?‰}m.,ÃêÜ¸æhWP²‘n‹ b/åÊ¬cNØ’ø~eõ¢ÕÉŸrÖ›ÓãÝ/÷ŽOtì2Äi	T„'¢lÂˆ®§ðÓQ*5òµ9%C{[%LÝGQ}€Û;w%%7’”xÙ}}ëVüóó¶#¤_‰•7[«ÁØºuW§®-}Î}k.OµËÀBU“ªÝäÞãZ/¯+öi1féZBÁgÕ¸!7•éÑDœ]¹Ô\­6ðÿ‰ÔÌ;?7iåW¨uË·ïÝYo4˜V ¬(·ÕL™ø46½/Ì±!2
+MÅÁ'£ÒL•Tàd‡çe†'ÂÖl¡J3SŒ:0 ãÔÎŒÐz4ËƒxÁ\æ»ØPAYdðpjf-Ÿoés-°à§ÇÉ°³…f#³oã§¾¤@D¸Ïk7ª³þ¬Ø™;ð§qj/Í‰Q÷è:ÇÑD&7íÔ1\Ï…±¼~âs’ðÔ*f†F7íÃýƒ½“Ó£§{'¹î—÷Ì­öÍý±:‰/©†Ì{§ ™/†ŠN|‹‘(`22i$pAö=d¤#¼§yVïo"uà¦W«É¹èvÍÓÜíâ$ËèbÿÉûš ~:nWx*ùû'Gšr1]K´·ˆ=ˆ‰MkyÔ@Ô‚.2[N]ã8ƒ)î•%(zUé£±ìxÊ¯¼zkÛš7,ò©UàœÀ²ø´‘Û?A×)Ö€9…'R"™µÊÌ™/ó,x¢€¨²+(ˆ-m¢º;ô¿ñØÖæ»¿6lm"mjcå#(óñµF6»ójžÐS½ ÈàÛ·s³9ãJ)>KÛ™Ôâ/1}¿!Ø«#~F„j˜‹}ž‹‰Q@¬N€ÑdÌY¢ . ;-°ôuw Kä'´añ p„·gÅ­Ê ÊÒÈ’jI2Þ«HLuJÜR->éBçZ=¿\ðã&=®
+77Í-#—â
+©$¶EÔ?Î¡î-­µ¦%¢jµ´•|µü]O¯lêHåŠýJLqèµµ‡x¶imõ<{‹w;‰¤uø³°mÐ…ñËý.ˆòÔ«0I_9ƒ6übF¿Í—N
+Í^ÅhöÊ$ïùvŒÃŠ™·,¦‚f¤Ð4ò@2ìÊÁZ¦•.ëkTR$v\¢—®M'oy[’ã‡Çbè wzÈ´–ë¨BLæÂ¸Taû4—¹b†!åœS
+€±7ÙQwœ£b²d_Úý÷}€çøÿ.ç<ÏÙÛU_Ò½Z{WgÝ†	‚Ä½¿SÖ…§Š¥’-ÌiÞÃXˆÑ¹Ú%5’!‘çPvÎÔ.¦½&gC/:Jñ z“˜–]êp¦O}áAÕ<ÔÂMežµÍ˜ý‰µ	²n–ÃÅÁ%
+6µ«õéb"éR%Ž1Ï§ðŸó®Ñ!-9º/§H™ä{0iY7mUQxœ >,Zñ6cÀü¨$Šæü^‹LÀHeqCèvõôxÈyæ2ÕÀŸý×"ùçü
+ètštM©Ó²Äm”cýõßüOs‰È9ô­Q±M·žziè€/oKâº¤X%Õ¤ª¶áöñ“ ©ŒªŸÌžÛJ
+ÂÎ†Xìøê?‰ãÎ=@¡r
+KªÉ‹Å%²´QQ^,®úŒçêÊíRM~óöíbÏî4Ìô.îÒ?
+#§3pÍªñ;]) â8Ú¥xî¶A­ˆe©eÏðð²ñÚžÆ|éjºh¶½séDN! =fùuÕÒ›5ãApvÐñ(Y‘žpáH.F/ÊP)©4«ÎU©YåŸçŸ¨£
+ÖGþ”Xs)œÈ *ÍC¼É0^œÎ‘Iï'Ò»ÞûC¬ö¦h“ŠI£ôî½uKoGƒJÄ]djuár•ó´¥¾¨Ê‰#œ¶{êb
+§vm)ÊÁ|Íe9ÌLÄNƒv8å\pÕFx@‰ê¸µ£VÖ`Z‚Ëû¡ôíhÀvå–Òe§'!/mÛ*Rï!£è&2¤yç×5RQ—ÝÚ™M]w”bÇ9YgÚp_b?ë°m€˜ËÇqò g© K †Î¥Uš,šŸŠý‹™Ñ{â‹‘ysŽp¨ºoÉª[ZYÊ‹¡ù6TWk*B4¯-þÐ‰ä]¹]ñ¨†¢oY÷"A<£AM7sò2fÚ©,ÝñÿÌüc	Eat`4°?W‹¯îlrÁBI.îhIn¶ÐM%¹ŒÛkÞH‹ X¢[ ÂEŸ‚-
+]B*dLÞªÎ´W1d‰¯žÉ1I¦ò1OÊÌƒñ[>¸t—3ZPö s­2QÅ—ŽZ|w.‘—œ&Ü¹ìåÅrô^+—Ûv¾CÕô,AÓø„I4Û•¥êI$|whiß¯›¿ÿNw¢à5×C8pÝñ“ |¯þî?Jº‘ŠÝR=Ú_ð¶ã¼Ï—´ð[ ÛÈgC!“™A_Éúæ]†^¹Pœe;.ôò"Q;ßh[lð¶ÐYŸWÇWÖF.é3Î‚‘-šöÅ% ‡PÛh•í½ÙØ¶ÂÕ¥Õfµy¿Y]»S­7ám(o×ïU›Í5þ¯iÆÔLgÛ‹[“ç©ŒÐÊe’Æu1_F\_Æ[8¥/ÂµYY„séžˆåžP[Ì³+:|ÓÒ†¼Õ„6Þ
+y!ï5½É­0)<Ç6-C<ëÆÂ¤­PºˆÉ[ùbPÀ&“ÚÕ“˜ôòþÛ¢|?"Ùû‰q«Ê\Á:<z¸sðé@ž’µït»àl`FúPÌÖ5§Ø×]Ä
+(³ôœ²P#Íj¸À(:šÚÓO;dChÎlµdCÂåÔ¢öÊµŽü•×yI7bEÁ)dr6›?S¡8}	™|,#rMnÕ‘[š©³f„Õ½ßTD†X5§SHû5*yrb„ÏØ|¹½ªÃ‹1ÍúÏ¬xVÙ5p£Er`ˆ­c#`;²+	·-ÖÀl
+Ìö½2#UÞþ­%‡ÖÓV1Ss*™çB‘*$›­7ïÒÆÀ±\öfÌÈš’D-‰T+ ~¢ffG;'ŸPhfŠ;ìÑ JNÃý	‹2{¼ëøTH°dú‡åeJá2{
+ eG˜ºŸ©MZó”A	%ÆXé#p<¶áÓÖµ[úK¯é%ÿmÅÒK
+ü´ˆ~¹®Øm,šç6Öøô¶ßþÓýOh÷ÍÙ:c¥XûSþe¸â,ÊDõþIZñÓ>~ØU™Ë
+q=ñ‡\€ØÁºE¿–ûÑp°õÙÿPK    ÅšÐ\n‘@ ^q  ]· 
+         ¤    index.htmlUT b¢1jux
+ ç  è  PK      P   ¢q    
