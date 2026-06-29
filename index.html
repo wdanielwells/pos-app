@@ -1040,46 +1040,10 @@ async function retryAI() {
   var todayEntry = CIs.find(function(c){return c.date===td();});
   if (!todayEntry) { toast('No check-in found for today','red'); return; }
   document.getElementById('air-box').innerHTML='<div class="aihead"><div class="aidot"></div><span class="ailbl">AI Coach - Retrying...</span></div><div style="padding:12px 0;color:var(--tx2);font-size:.85rem;">Connecting to AI coach. Please wait...</div>';
-  var sys='You are the AI coach inside the Personal Operating System. You are this persons nutritionist, personal trainer, therapist, and accountability partner. You are direct, warm, deeply practical.
-
-USER PROFILE:
-'+pCtx()+'
-
-RECENT HISTORY:
-'+rCtx()+'
-
-Generate a COMPREHENSIVE personalized daily coaching plan. Reference their ACTUAL scores and notes. Be specific. Minimum 400 words.
-
-Use these exact section headers:
-
-SCORES TODAY
-TRAINING PLAN
-NUTRITION PLAN
-MENTAL AND EMOTIONAL
-GUT HEALTH
-GOAL CHECK
-SOBRIETY AND CRAVINGS
-WIN FOR TODAY';
-  var scoreLines=SCORES.map(function(k){return k+': '+(todayEntry.scores&&todayEntry.scores[k]!==undefined?todayEntry.scores[k]:'not scored')+'/10';}).join(', ');
+  var sys='You are the AI coach inside the Personal Operating System. You are this persons nutritionist, personal trainer, therapist, and accountability partner. You are direct, warm, deeply practical.\n\nUSER PROFILE:\n'+pCtx()+'\n\nRECENT HISTORY:\n'+rCtx()+'\n\nGenerate a COMPREHENSIVE personalized daily coaching plan. Be specific. Minimum 400 words. Use these section headers: SCORES TODAY, TRAINING PLAN, NUTRITION PLAN, MENTAL AND EMOTIONAL, GUT HEALTH, GOAL CHECK, SOBRIETY AND CRAVINGS, WIN FOR TODAY';
   var n=todayEntry.notes||{};
-  var userMsg='DATE: '+new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})+'
-WEIGHT: '+(todayEntry.weightLog||'not logged')+'lbs
-WAIST: '+(todayEntry.waistLog||'not logged')+'in
-SLEEP HOURS: '+(todayEntry.sleepHrs||'not logged')+'
-WATER: '+(todayEntry.waterOz||0)+' oz
-SCORES 0-10: '+scoreLines+'
-AVERAGE: '+todayEntry.avg+'/10
-NOTES:
-Sleep: '+(n.sleep||'nothing')+'
-Energy: '+(n.energy||'nothing')+'
-Mood: '+(n.mood||'nothing')+'
-Stress: '+(n.stress||'nothing')+'
-Food log: '+(n.nutrition||'nothing')+'
-Gut: '+(n.gut||'nothing')+'
-Training: '+(n.workout||'nothing')+'
-Cravings: '+(n.cravings||'nothing')+'
-Overall: '+(n.overall||'nothing')+'
-Give me my full coaching plan.';
+  var scoreLines=SCORES.map(function(k){return k+': '+(todayEntry.scores&&todayEntry.scores[k]!==undefined?todayEntry.scores[k]:'not scored')+'/10';}).join(', ');
+  var userMsg='DATE: '+new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})+'\nWEIGHT: '+(todayEntry.weightLog||'not logged')+'lbs\nWAIST: '+(todayEntry.waistLog||'not logged')+'in\nSLEEP: '+(todayEntry.sleepHrs||'not logged')+'hrs\nWATER: '+(todayEntry.waterOz||0)+' oz\nSCORES: '+scoreLines+'\nAVERAGE: '+todayEntry.avg+'/10\nSleep notes: '+(n.sleep||'nothing')+'\nEnergy: '+(n.energy||'nothing')+'\nMood: '+(n.mood||'nothing')+'\nStress: '+(n.stress||'nothing')+'\nFood: '+(n.nutrition||'nothing')+'\nGut: '+(n.gut||'nothing')+'\nTraining: '+(n.workout||'nothing')+'\nCravings: '+(n.cravings||'nothing')+'\nOverall: '+(n.overall||'nothing')+'\nGive me my full coaching plan.';
   var air=await callAI(sys,userMsg);
   if (air) {
     todayEntry.air=air; sl('pos_ci',CIs);
@@ -1087,8 +1051,7 @@ Give me my full coaching plan.';
     toast('Coaching plan ready');
   } else {
     document.getElementById('air-box').innerHTML='<div class="aihead"><div class="aidot"></div><span class="ailbl">AI Coach - Still Unavailable</span></div><div style="padding:12px;"><div style="color:var(--red);font-size:.85rem;margin-bottom:10px;">Still unable to connect. Your check-in is saved.</div><button class="btn" onclick="retryAI()" style="margin-top:8px;">Try Again</button><button class="btn ghost" onclick="nav('chat')" style="margin-top:8px;">Ask Coach Directly</button></div>';
-    toast('Connection still failing. Try Ask Coach tab.','red');
-    console.error('Retry also failed. Check: 1) Internet connection 2) Supabase function logs 3) Anthropic API credits');
+    toast('Connection failing. Try Ask Coach tab.','red');
   }
 }
 
