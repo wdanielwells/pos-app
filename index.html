@@ -1050,7 +1050,7 @@ async function retryAI() {
     document.getElementById('air-box').innerHTML='<div class="aihead"><div class="aidot"></div><span class="ailbl">AI Coach - Full Daily Plan</span></div><div class="aibody">'+esc(air)+'</div>';
     toast('Coaching plan ready');
   } else {
-    document.getElementById('air-box').innerHTML='<div class="aihead"><div class="aidot"></div><span class="ailbl">AI Coach - Still Unavailable</span></div><div style="padding:12px;"><div style="color:var(--red);font-size:.85rem;margin-bottom:10px;">Still unable to connect. Your check-in is saved.</div><button class="btn" onclick="retryAI()" style="margin-top:8px;">Try Again</button><button class="btn ghost" onclick="nav('chat')" style="margin-top:8px;">Ask Coach Directly</button></div>';
+    document.getElementById('air-box').innerHTML='<div class="aihead"><div class="aidot"></div><span class="ailbl">AI Coach - Still Unavailable</span></div><div style="padding:12px;"><div style="color:var(--red);font-size:.85rem;margin-bottom:10px;">Still unable to connect. Your check-in is saved.</div><button class="btn" onclick="retryAI()" style="margin-top:8px;">Try Again</button><button class="btn ghost" onclick="nav(&apos;chat&apos;)" style="margin-top:8px;">Ask Coach Directly</button></div>';
     toast('Connection failing. Try Ask Coach tab.','red');
   }
 }
